@@ -151,45 +151,76 @@ div.row.content-detail{
             box-sizing:border-box; 
             margin:0 auto;
         }
+        .sxy-detailcontent{
+            width: 70%;
+            margin: 30px auto;
+            text-align: center;
+            .sxy-lihua{
+                text-align: left;
+                font-size: 14px;
+                color: #ae8e71;
+            }
+            img{
+                width: 100%;
+                margin:30px 0;
+            }
+            p:nth-of-type(2){
+                font-size: 14px;
+                color: #0c0c0c;
+            }
+            p:nth-of-type(3){
+                text-align: left;
+                font-size: 14px;
+                line-height: 20px;
+                color: #0c0c0c;
+            }
+            p:nth-of-type(4){
+                text-align: left;
+                font-size: 14px;
+                line-height: 20px;
+                color: #0c0c0c;
+            }
+            .sxy-bg{
+                overflow: hidden;
+                padding: 20px 10px;
+                margin: 20px 0;
+//              background-image: url(../../image/sxy-image/sxy-bg.png);
+//              background-repeat: no-repeat;
+//              background-size: 100%;
+                border-radius: 20px;
+                border: 2px solid #E3E3E3;
+                h2{
+                    font-size: 16px;
+                    color: #0c0c0c;
+                    line-height: 20px;
+                    font-weight: 600;
+                }
+                p{
+                    color: #0c0c0c;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                h5{
+                    margin-top: 16px;
+                    color: #0c0c0c;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                h4{
+                    color: #0c0c0c;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 16px;
+                }
+            }
+//          @media (max-width: 768px){
+//              
+//          }
+        }
+        
     }
 }
-.rowlist{
-    margin-top: 30px;
-    height: auto;
-}
-.rowlist  .sxy-bgrect{
-    margin: 15px 0;
-    display: block;
-    height: auto;
-    background-color: #F0F4F3;
-    img{
-        width: 92%;
-        padding: 4% 0;
-    }
-    h5{
-        width: 92%;
-        margin: 0 auto;
-        font-size: 14px;
-        line-height: 30px;
-        font-family: '苹方';
-        text-align: left;
-        color: #2f2f2f;
-        font-weight: 600;
-    }
-    p{
-        width: 92%;
-        margin: 0 auto;
-        font-size: 12px;
-        line-height: 20px;
-        font-family: '苹方';
-        text-align: left;
-        color: #2f2f2f;
-        padding-bottom: 4%;
-    }
-}
-.rowlist  .sxy-bgrect:hover{
-    box-shadow: 0 0 16px 0 rgba(0,0,0,0.2);
-}
+
 .sxy-more{
     display: block;
     width: 100%;
