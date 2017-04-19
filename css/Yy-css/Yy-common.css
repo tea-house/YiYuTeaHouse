@@ -1,0 +1,98 @@
+.header {
+  height: 80px; }
+  .header .logo {
+    height: 100%; }
+    .header .logo img {
+      width: 80px;
+      margin: 0 auto; }
+  .header .nav {
+    height: 100%; }
+    .header .nav ul {
+      width: 100%;
+      height: 100%; }
+      .header .nav ul li {
+        float: left;
+        width: 14.2857%;
+        height: 100%;
+        text-align: center; }
+        .header .nav ul li a {
+          color: #2f2f2f;
+          font-size: 14px;
+          line-height: 80px; }
+  .header .search {
+    height: 100%; }
+    .header .search .outborder {
+      margin: 21px auto;
+      height: 38px;
+      width: 100%;
+      border: 1px solid #b5b5b5;
+      border-radius: 4px;
+      cursor: pointer; }
+      .header .search .outborder .icon {
+        width: 14%;
+        height: 100%;
+        float: left;
+        background-image: url("../../image/Yy-image/home_05.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+
+.sm-header {
+  width: 100%;
+  height: 128px; }
+  .sm-header .logo {
+    height: 128px; }
+    .sm-header .logo .logo-img {
+      width: 100%;
+      height: 100%;
+      background-image: url("../../image/Yy-image/home_01.png");
+      background-size: cover;
+      background-position: center; }
+  .sm-header .search {
+    height: 100%; }
+    .sm-header .search .outborder {
+      height: 48px;
+      margin: 36px auto;
+      width: 100%;
+      border: 1px solid #b5b5b5;
+      border-radius: 4px;
+      cursor: pointer; }
+      .sm-header .search .outborder .icon {
+        width: 14%;
+        height: 100%;
+        float: left;
+        background-image: url("../../image/Yy-image/home_05.png");
+        background-repeat: no-repeat;
+        background-position: center; }
+  .sm-header .menu {
+    height: 128px; }
+    .sm-header .menu .menu-img {
+      width: 100%;
+      height: 100%;
+      background-image: url("../../image/Yy-image/home_03.png");
+      background-size: cover;
+      background-position: center; }
+
+.search .outborder input {
+  float: left;
+  width: 86%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-indent: 6px; }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .header .container {
+    width: 100%; } }
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: block; }
+  .sm-header {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none; }
+  .sm-header {
+    display: block; } }
