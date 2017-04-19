@@ -9,17 +9,20 @@ div.head{
     background:pink;
 }
 
-div.row{
+div.row.context{
     margin-top:98px;
     div.left{
-        padding-left:90px;
+        padding-left:70px;
+        padding-right:20px;
         box-sizing:border-box;
 //      background:red;
-        height:200px;
+      
         text-align:center;
-        
+        >img{
+            width:100%;
+        }
         div.title{
-            width:252px;
+            width:62.5%;
             height:135px;
     //      background:#fff;
             margin:0 auto;
@@ -30,41 +33,78 @@ div.row{
         }
         
         div.team{
-            width:252px;
-            height:96px;
+            width:90%;
+            height:100px;
             background:#eee;
             margin:0 auto;
-            padding-top:19px;
-            box-sizing:border-box;
+            margin-top:19px;
+//          box-sizing:border-box;
             background-color:#F0F4F3;
             
+//          margin-top:10px;
             background-position:center;
             background-size:100%;
+            
             p:first-child{
+                padding-top:15px;
+                box-sizing:border-box;
                 text-align:center;
                 font-size:24px;
-                line-height:30px;
+                height:50%;
+                line-height:1.5em;
                 color:#9c9c9c;
             }
             p:nth-child(2){
                 text-align:center;
                 font-size:14px;
-                line-height:14px;
+                height:50%;
+                line-height:1.5em;
                 color:#9c9c9c;
             }
+            
+            
         }
         
         div.team.active{
-            background-image:url(../../image/cr-image/bgg_18.png);
+            background-image:url(../../image/cr-image/bgg.png);
+            background-repeat:no-repeat;
         }
+       //小屏 
+        @media screen and (min-width:768px) and (max-width:992px){
+            div.team{
+                height:80px;
+            }
+            div.team > p:first-child{
+                    text-align:center;
+                    font-size:18px;
+                    line-height:1.5em;
+                    height:50%;
+//                  padding-top:10px;
+                    box-sizing:border-box;
+                    color:#9c9c9c;
+                }
+            div.team > p:nth-child(2){
+                    text-align:center;
+                    font-size:10px;
+                    height:50%;
+                    line-height:.5em;
+                    color:#9c9c9c;
+                }
+        } 
     }
+    
+    
+    
     
     
     div.right{
         height:auto;
         text-align:center;
+        > img:nth-of-type(1){
+            width:92%;
+        }
         div.title{
-            width:715px;
+            width:95%;
             height:118px;
             text-align:center;
             padding-top:30px;
@@ -72,7 +112,7 @@ div.row{
             margin:0 auto;
         }
         p:nth-of-type(1){
-            width:715px;
+            width:95%;
             text-align:center;
             font-size:30px;
             padding-top:10px;
@@ -82,14 +122,14 @@ div.row{
             margin:0 auto;
         }
         p:nth-of-type(2){
-            width:715px;
+            width:95%;
             text-align:center;
             font-size:18px;
             color:#4e4e4e;
             margin:0 auto;
         }
         p:nth-of-type(3){
-            width:715px;
+            width:95%;
             text-align:center;
             font-size:18px;
             color:#4e4e4e;
@@ -99,7 +139,7 @@ div.row{
             letter-spacing: 5px;
         }
         p:nth-of-type(4){
-            width:715px;
+            width:95%;
             text-align:left;
             font-size:14px;
             color:#231815;
@@ -110,7 +150,7 @@ div.row{
             font-family:'苹方';
         }
         p:nth-of-type(5){
-            width:715px;
+            width:95%;
             text-align:left;
             font-size:14px;
             color:#231815;
@@ -121,7 +161,7 @@ div.row{
             font-family:'苹方';
         }
         p:nth-of-type(6){
-            width:715px;
+            width:95%;
             text-align:left;
             font-size:14px;
             color:#231815;
@@ -132,41 +172,53 @@ div.row{
             font-family:'苹方';
         }
         div.fourp{
-            width:715px;
+            width:95%;
             height:auto;
             margin:0 auto;
             padding-top:20px;
-            padding-bottom:40px;
+            padding-bottom:20px;
             box-sizing:border-box;
+            overflow:hidden;
             div.lp{
                 float:left;
-                width:419px;
+                width:61.6%;
                 height:auto;
+                padding-right:15px;
+                box-sizing:border-box;
+  
                 img{
+                    width:100%;
                     margin-top:20px;
-                    margin-right:15px;
+////                margin-right:15px;
                 }
+
                 img:nth-child(2){
-                    margin-top:21px;
+                    margin-top:20px;
                 }
             }
             div.rp{
                 float:left;
-                width:281px;
+                width:38.4%;
                 height:auto;
                 padding-top:20px;
-                padding-bottom:40px;
+//              padding-bottom:40px;
                 box-sizing:border-box;
-                margin-left:15px;
+                overflow:hidden;
+//              margin-left:15px;
+//              padding-left:15px;
+                img{
+                    width:100%;
+                }
                 img:nth-child(2){
                     margin-top:20px;
                 }
+                
             }
         }
         
         
         p:nth-of-type(6)~p{
-            width:715px;
+            width:95%;
             text-align:left;
             font-size:12px;
             color:#231815;
@@ -174,10 +226,24 @@ div.row{
             padding-top:20px;
             box-sizing:border-box;
             line-height:20px;
+            
         }
+       
     }
+    
+
 
 }
 
-
+//底部长线
+div.row.foot{
+    margin-top:90px;
+    div.line{
+        width:100%;
+        height:3px;
+        img{
+            width:100%;
+        }
+    }
+}
 
