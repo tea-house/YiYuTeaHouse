@@ -14,11 +14,18 @@
         float: left;
         width: 14.2857%;
         height: 100%;
-        text-align: center; }
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s; }
         .header .nav ul li a {
           color: #2f2f2f;
           font-size: 14px;
-          line-height: 80px; }
+          line-height: 80px;
+          text-decoration: none; }
+      .header .nav ul li.active {
+        background-color: #4b4c4c; }
+        .header .nav ul li.active a {
+          color: #fff; }
   .header .search {
     height: 100%; }
     .header .search .outborder {
@@ -35,6 +42,12 @@
         background-image: url("../../image/Yy-image/home_05.png");
         background-repeat: no-repeat;
         background-position: center; }
+
+.header .nav ul li:hover {
+  background-color: #4b4c4c; }
+
+.header .nav ul li:hover a {
+  color: #fff; }
 
 .sm-header {
   width: 100%;

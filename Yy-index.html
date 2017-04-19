@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" href="css/Yy-css/Yy-common.css" />
 		<link rel="stylesheet" href="css/Yy-css/Yy-index.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/Yy-js/Yy-index.js"></script>
 	</head>
 	<body>
 		<!--导航开始-->
@@ -19,7 +21,7 @@
 					</div>
 					<div class="nav col-sm-7 col-md-8">
 						<ul>
-							<li><a href="">首页</a></li>
+							<li class="active"><a href="">首页</a></li>
 							<li><a href="">关于我们</a></li>
 							<li><a href="">茶馆环境</a></li>
 							<li><a href="">我们产品</a></li>
@@ -58,17 +60,32 @@
 		<!--导航结束-->
 		<!--banner开始-->
 		<div class="banner">
-			<ul>
-				<li>
-					<a href=""></a>
+			<ul class="box">
+				<li class="on">
+					<a href="" class="lis1"></a>
 				</li>
 				<li>
-					<a href=""></a>
+					<a href="" class="lis2"></a>
 				</li>
 				<li>
-					<a href=""></a>
+					<a href="" class="lis3"></a>
+				</li>
+				<li>
+					<a href="" class="lis4"></a>
+				</li>
+				<li>
+					<a href="" class="lis5"></a>
 				</li>
 			</ul>
+			<ul class="circle">
+				<li class="select"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="left">&lt;</div>
+			<div class="right">&gt;</div>
 		</div>
 		<!--banner结束-->
 		<!--关于我们开始-->
@@ -291,7 +308,7 @@
 							<img src="image/Yy-image/tea_18.png" alt="">
 						</div>
 					</div>
-					<div class="col-xs-4 tea-col">
+					<div class="col-xs-4 tea-col active">
 						<div class="title">
 							<img src="image/Yy-image/home_34.png" alt="">
 							<h6>节气茶席&nbsp; | &nbsp;杏花惊蛰寒，日上桃始华</h6>
@@ -336,11 +353,23 @@
 		<!--联系我们开始-->
 		<div class="contact">
 			<div class="head">
-				<img src="image/Yy-image/index_22.png" alt="">
+				<img src="image/Yy-image/index_33.png" alt="">
 			</div>
 			<div class="text">
-				<p></h6>
-				<span></span>
+				<p>一臾茶馆位于浙江省杭州市西湖区南山路825号，茶馆联系电话：0571-75684322</p>
+				<span>邮箱：1234567@163.com</span>
+			</div>
+			<div class="area container">
+				<div class="row">
+					<div class="con-lef col-xs-4 col-sm-4">
+						<input type="" name="" id="" value="姓名" />
+						<input type="" name="" id="" value="邮箱" />
+						<input type="" name="" id="" value="标题" />
+					</div>
+					<div class="con-rig col-xs-8 col-sm-8">
+						<textarea name="" rows="" cols=""></textarea>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--联系我们结束-->

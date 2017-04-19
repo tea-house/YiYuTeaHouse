@@ -28,11 +28,21 @@
         width:14.2857%;
         height:100%;
         text-align: center;
+        cursor:pointer;
         a{
           color:#2f2f2f;
           font-size:14px;
           line-height:80px;
+          text-decoration:none;
         }
+        transition:all 0.3s;
+      }
+      li.active{
+          background-color:#4b4c4c;
+          a{
+             color:#fff; 
+          }
+          
       }
     }
   }
@@ -51,7 +61,12 @@
     }
   }
 }
-
+.header .nav ul li:hover{
+   background-color:#4b4c4c;
+}
+.header .nav ul li:hover a{
+   color:#fff;
+}
 //小屏导航
 .sm-header{
   width:100%;
