@@ -89,15 +89,80 @@ div.row.context div.left div.team.active {
     line-height: .5em;
     color: #9c9c9c;
   }
+  div.row.context div.left div.title {
+    height: 90px;
+  }
+  div.row.context div.left div.title > img {
+    width: 100%;
+  }
+}
+
+div.row.context div.leftxs {
+  margin-top: -38px;
+}
+
+div.row.context div.leftxs div.titleb {
+  text-align: center;
+}
+
+div.row.context div.leftxs div.intro {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+div.row.context div.leftxs div.intro div.font {
+  width: 33.33333%;
+  border-right: 1px solid #BFBFBF;
+}
+
+div.row.context div.leftxs div.intro div.font p {
+  width: 100%;
+  text-align: center;
+  color: #9c9c9c;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+div.row.context div.leftxs div.intro div.font p:nth-child(1) {
+  font-family: "times new roman";
+  line-height: 1em;
+}
+
+div.row.context div.leftxs div.intro div.font p:nth-child(2) {
+  font-size: 20px;
+  line-height: 1.1em;
+}
+
+div.row.context div.leftxs div.intro div.font:first-child {
+  border-left: 1px solid #BFBFBF;
+}
+
+div.row.context div.leftxs div.intro div.font.active p {
+  color: #4c4c4c;
 }
 
 div.row.context div.right {
   height: auto;
   text-align: center;
+  margin-bottom: 90px;
 }
 
 div.row.context div.right > img:nth-of-type(1) {
   width: 92%;
+}
+
+div.row.context div.right > img:nth-of-type(2) {
+  width: 60%;
+}
+
+div.row.context div.right > img:nth-of-type(3) {
+  width: 30%;
 }
 
 div.row.context div.right div.title {
@@ -228,10 +293,6 @@ div.row.context div.right p:nth-of-type(6) ~ p {
   padding-top: 20px;
   box-sizing: border-box;
   line-height: 20px;
-}
-
-div.row.foot {
-  margin-top: 90px;
 }
 
 div.row.foot div.line {
