@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>留言板</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="css/common.css" />
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/cr-css/message.css" />
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<!--头部+banner-->
+		<div class="head">
+			
+		</div>
+	<!--内容-->	
+		<div class="container">
+			<div class="row context">
+				<!--左边标题-->
+				<div class="left col-sm-4 hidden-xs">
+					<img src="image/cr-image/sline_03.png" alt="" />
+					<div class="title">
+						<img src="image/cr-image/contact_03.png" alt="" />
+					</div>
+					<img src="image/cr-image/sline_06.png" alt="" />
+					<div class="team active">
+						<p>Address</p>
+						<p>茶馆地址</p>
+					</div>
+					<div class="team">
+						<p>Contact</p>
+						<p>联系方式</p>
+					</div>
+					<div class="team">
+						<p>E-mail</p>
+						<p>电子邮箱</p>
+					</div>
+					<img src="image/cr-image/sline_06.png" alt="" />
+				</div>	
+				<!--左边小屏-->
+				<div class="leftxs hidden-sm hidden-md hidden-lg col-xs-12">
+					<div class="titleb">
+						<img src="image/cr-image/ctab_03.png" alt="" />
+					</div>
+					<div class="intro">
+						<div class="font active">
+							<p>Address</p>
+							<p>茶馆地址</p>
+						</div>
+						<div class="font">
+							<p>Contact</p>
+							<p>联系方式</p>
+						</div>
+						<div class="font">
+							<p>E-mail</p>
+							<p>电子邮箱</p>
+						</div>
+					</div>
+				</div>	
+					
+					
+					
+				<!--右边文字-->
+				<div class="right col-sm-8 col-xs-12">
+					<img src="image/cr-image/abus_05.png" alt="" />
+					<div class="title">
+						<img src="image/cr-image/abus_13.png" alt="" />
+					</div>
+					<p>TEAHOUSE&nbsp;FOR&nbsp;CONTACT</p>
+					<p>CONTACT&nbsp;WONDERFUL</p>
+					<img src="image/cr-image/abus_18.png" alt="" />
+					<p>给我留言</p>
+					<img src="image/cr-image/abus_22.png" alt="" />
+					<!--留言区-->
+					<form action="">
+						<input type="text" placeholder='姓名'/>
+						<input type="email" placeholder='邮箱'/>
+						<input type="text" placeholder='标题'/>
+						<textarea name="mess" id="" cols="30" rows="10" placeholder='内容'></textarea>
+						<div class="bttn">
+							<button>提交</button>
+							<button class='null'>清空</button>
+						</div>
+					</form>
+					<!--已有留言-->
+					<ul class='had'>
+						<li>
+							<div class="content">
+								<div class="num">
+									<div class="cir">04</div>
+								</div>
+								<div class="name">
+									<p>代用名</p>
+									<p>2016-8-31</p>
+									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+								</div>
+								<div class="words">
+									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<div class="num">
+									<div class="cir">03</div>
+								</div>
+								<div class="name">
+									<p>代用名</p>
+									<p>2016-8-31</p>
+									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+								</div>
+								<div class="words">
+									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<div class="num">
+									<div class="cir">02</div>
+								</div>
+								<div class="name">
+									<p>代用名</p>
+									<p>2016-8-31</p>
+									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+								</div>
+								<div class="words">
+									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="content">
+								<div class="num">
+									<div class="cir">01</div>
+								</div>
+								<div class="name">
+									<p>代用名</p>
+									<p>2016-8-31</p>
+									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+								</div>
+								<div class="words">
+									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+					<!--分页-->
+					<nav aria-label="Page navigation">
+					  <ul class="pagination">
+					    <li>
+					      <a href="javascript:;" aria-label="Previous" class='lefta'>
+					        <span aria-hidden="true">&lt;</span>
+					      </a>
+					    </li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>1</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>2</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub active'>3</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>4</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>5</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>6</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>7</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>8</a></li>
+					    <li class='nubli'><a href="javascript:;" class='nub'>9</a></li>
+					    <li>
+					      <a href="javascript:;" aria-label="Next" class='righta'>
+					        <span aria-hidden="true">&gt;</span>
+					      </a>
+					    </li>
+					  </ul>
+				</nav>
+				</div>
+			</div>
+			
+			<!--地图-->
+			
+				<div class="row map hidden-xs">
+					<img src="image/cr-image/map_03.png" alt="" />
+				</div>
+
+			
+			
+			
+			
+			
+			<div class="row foot hidden-xs">
+				<!--底部1-->
+				<div class="line hidden-xs col-sm-12">
+					<img src="image/cr-image/lline.png" alt="" />
+				</div>
+				
+			</div>
+			
+		</div>
+	
+		<!--地图-->
+		<div class="container map hidden-sm hidden-md hidden-lg">
+			<div class="row map">
+				<img src="image/cr-image/map_03.png" alt="" />
+			</div>
+		</div>
+			
+	
+		<!--底部-->
+		<footer class="sxy-foot container-fluid">
+			<div class="sxy-row1 row">
+				<div class="sxy-infor col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10">
+					<ul class="sxy-footlist">
+						<div class="sxy-line"></div>
+						<li><a href="">茶馆简介</a></li>
+						<li><a href="">茶馆文化</a></li>
+						<li><a href="">专业茶师</a></li>
+						<p><a href="">关于我们</a></p>
+					</ul>
+					<ul class="sxy-footlist">
+						<div class="sxy-line"></div>
+						<li><a href="">茶包</a></li>
+						<li><a href="">茶具</a></li>
+						<li><a href="">茶叶</a></li>
+						<p><a href="">我们产品</a></p>
+					</ul>
+					<ul class="sxy-footlist">
+						<div class="sxy-line"></div>
+						<li><a href="">区域活动</a></li>
+						<li><a href="">行业新闻</a></li>
+						<li><a href="">企业新闻</a></li>
+						<p><a href="">新闻中心</a></p>
+					</ul>
+					<ul class="sxy-footlist">
+						<div class="sxy-line"></div>
+						<li><a href="">品茶鉴茶</a></li>
+						<li><a href="">茶与养生</a></li>
+						<li><a href="">茶艺茶道</a></li>
+						<p><a href="">茶叶百科</a></p>
+					</ul>
+					<div class="sxy-ma"><img src="image/sxy-image/sxy-ma.png" alt="" /></div>
+				</div>
+			</div>
+			<div class="sxy-row2 row">
+				<div class="col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10">Copyright &copy; 2004 Adobe Systems Incorporated. All rights reserve</div>	
+			</div>
+	</footer>
+	</body>
+</html>
+<script>
+	//分页
+	var pagea=$('li.nubli > a');
+	var pagel=$('ul.pagination > li > a.lefta');
+	var pager=$('ul.pagination > li > a.righta');
+	
+	
+	pagea.click(function(){
+		pagea.removeClass('active');
+		$(this).addClass('active');
+	})
+	pagel.click(function(){
+		var ind;
+		pagea.each(function(index,val){
+			if(val.className=='nub active'){
+				ind=index;
+			}
+		})
+		ind=ind-1;
+		pagea.removeClass('active');
+		pagea.eq(ind).addClass('active');
+		
+	})
+	pager.click(function(){
+		var indr;
+		pagea.each(function(index,val){
+			if(val.className=='nub active'){
+				indr=index;
+			}
+		})
+		indr=indr+1;
+		if(indr>=pagea.length){
+			indr=0;
+		}
+		pagea.removeClass('active');
+		pagea.eq(indr).addClass('active');
+		
+	})
+	
+	
+</script>
