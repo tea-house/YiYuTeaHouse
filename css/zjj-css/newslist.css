@@ -1,0 +1,356 @@
+@charset "UTF-8";
+body {
+  overflow: auto;
+  background-color: #F0F4f3;
+}
+
+div.head {
+  width: 100%;
+  height: 740px;
+  background: pink;
+}
+
+div.row.context {
+  margin-top: 98px;
+}
+
+div.row.context div.left {
+  padding-left: 70px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.row.context div.left > img {
+  width: 100%;
+}
+
+div.row.context div.left div.title {
+  width: 62.5%;
+  height: 135px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.row.context div.left div.title img {
+  margin-top: 26px;
+}
+
+div.row.context div.left div.team {
+  width: 90%;
+  height: 100px;
+  background: #eee;
+  margin: 0 auto;
+  margin-top: 19px;
+  background-color: #F0F4F3;
+  background-position: center;
+  background-size: 100%;
+}
+
+div.row.context div.left div.team p:first-child {
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  height: 50%;
+  line-height: 1.5em;
+  color: #9c9c9c;
+}
+
+div.row.context div.left div.team p:nth-child(2) {
+  text-align: center;
+  font-size: 14px;
+  height: 50%;
+  line-height: 1.5em;
+  color: #9c9c9c;
+}
+
+div.row.context div.left div.team.active {
+  background-image: url(../../image/cr-image/bgg.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div.row.context div.left div.team {
+    height: 80px;
+  }
+  div.row.context div.left div.team > p:first-child {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+    height: 50%;
+    box-sizing: border-box;
+    color: #9c9c9c;
+  }
+  div.row.context div.left div.team > p:nth-child(2) {
+    text-align: center;
+    font-size: 10px;
+    height: 50%;
+    line-height: .5em;
+    color: #9c9c9c;
+  }
+  div.row.context div.left div.title {
+    height: 90px;
+  }
+  div.row.context div.left div.title > img {
+    width: 100%;
+  }
+}
+
+div.row.context div.leftxs {
+  margin-top: -38px;
+}
+
+div.row.context div.leftxs div.titleb {
+  text-align: center;
+}
+
+div.row.context div.leftxs div.intro {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+div.row.context div.leftxs div.intro div.font {
+  width: 33.33333%;
+  border-right: 1px solid #BFBFBF;
+}
+
+div.row.context div.leftxs div.intro div.font p {
+  width: 100%;
+  text-align: center;
+  color: #9c9c9c;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+div.row.context div.leftxs div.intro div.font p:nth-child(1) {
+  font-family: "times new roman";
+  line-height: 1em;
+}
+
+div.row.context div.leftxs div.intro div.font p:nth-child(2) {
+  font-size: 20px;
+  line-height: 1.1em;
+}
+
+div.row.context div.leftxs div.intro div.font:first-child {
+  border-left: 1px solid #BFBFBF;
+}
+
+div.row.context div.leftxs div.intro div.font.active p {
+  color: #4c4c4c;
+}
+
+div.row.context div.right {
+  height: auto;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+div.row.context div.right > img:nth-of-type(1) {
+  width: 92%;
+}
+
+div.row.context div.right > img:nth-of-type(2) {
+  width: 60%;
+}
+
+div.row.context div.right > img:nth-of-type(3) {
+  width: 30%;
+}
+
+div.row.context div.right div.title {
+  width: 95%;
+  height: 118px;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+div.row.context div.right p:nth-of-type(1) {
+  width: 95%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: #565656;
+  margin: 0 auto;
+}
+
+div.row.context div.right p:nth-of-type(2) {
+  width: 95%;
+  text-align: center;
+  font-size: 18px;
+  color: #4e4e4e;
+  margin: 0 auto;
+}
+
+div.row.context div.right p:nth-of-type(3) {
+  width: 95%;
+  text-align: center;
+  font-size: 18px;
+  color: #4e4e4e;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: 5px;
+}
+
+div.row.context div.right .right-head {
+  height: 323px;
+  border: 1px solid #ccc;
+}
+
+div.row.context div.right .right-list {
+  width: 100%;
+  height: 100%;
+}
+
+div.row.context div.right .right-list .list {
+  width: 100%;
+  height: 125px;
+  margin: 5% 0;
+}
+
+div.row.context div.right .right-list .list .xuhao {
+  width: 14%;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+}
+
+div.row.context div.right .right-list .list .tu {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+div.row.context div.right .right-list .list .tu img {
+  width: 100%;
+}
+
+div.row.context div.right .right-list .list .biaoti {
+  width: 26%;
+  float: left;
+  text-align: left;
+  padding-left: 30px;
+}
+
+div.row.context div.right .right-list .list .biaoti span:nth-child(1) {
+  color: #A2A4A3;
+  font-size: 14px;
+}
+
+div.row.context div.right .right-list .list .biaoti #ti {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #3B3B3B;
+}
+
+div.row.context div.right .right-list .list .biaoti #ti span {
+  line-height: 10px;
+  font-size: 15px;
+  color: #3B3B3B;
+  font-family: "苹方";
+  font-weight: 500;
+}
+
+div.row.context div.right .right-list .list .biaoti span:nth-child(4) {
+  color: #131212;
+  line-height: 40px;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+div.row.context div.right .right-list .list .biaoti span:nth-child(5) {
+  color: #272727;
+  font-size: 14px;
+  padding: 15px 0;
+  line-height: 25px;
+  font-weight: bold;
+  font-family: "苹方";
+}
+
+div.row.context div.right .right-list .list .miaoshu {
+  width: 35%;
+  float: left;
+  padding: 0 20px;
+}
+
+div.row.context div.right .right-list .list .miaoshu p {
+  display: block;
+  width: 100%;
+  padding: 3% 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+div.row.context div.right .right-list .h-line {
+  height: 1px;
+  background: #DFE1DE;
+}
+
+div.row.context div.right .right-list .h-line:nth-child(1) {
+  margin-top: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .rightxp-list {
+    width: 95%;
+    height: auto;
+    margin-top: 570px;
+    margin-bottom: 40px;
+  }
+  .rightxp-list .h-line {
+    width: 95%;
+    height: 1px;
+    background: #DFE1DE;
+    margin: 0 auto;
+    margin-top: 190px;
+    margin-bottom: 40px;
+  }
+  .rightxp-list div.title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+  .rightxp-list div.title span:nth-child(1) {
+    display: block;
+    width: 20%;
+    height: auto;
+    background: url("../../image/zjj-image/xu1.png") no-repeat;
+  }
+  .rightxp-list div.tuwen {
+    width: 90%;
+    height: auto;
+    margin: 15px auto;
+  }
+  .rightxp-list div.tuwen .tu {
+    width: 40%;
+    float: left;
+  }
+  .rightxp-list div.tuwen .tu img {
+    width: auto;
+  }
+  .rightxp-list div.tuwen .wen {
+    width: 50%;
+    float: left;
+  }
+  .rightxp-list div.tuwen .wen #p1, .rightxp-list div.tuwen .wen #p2, .rightxp-list div.tuwen .wen #p3 {
+    width: 100%;
+    margin-top: 2%;
+    overflow: hidden;
+  }
+}
