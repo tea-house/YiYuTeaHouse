@@ -498,6 +498,8 @@ body {
       margin-top: 10px; }
     .news .context .n-list .content .righ span {
       line-height: 40px; }
+  .tea {
+    overflow: hidden; }
   .tea .tea-contain {
     height: 242px; }
   .tea .tea-content {
@@ -507,32 +509,32 @@ body {
   .tea .tea-contain .tea-col {
     float: none;
     position: absolute;
-    width: 280px;
-    overflow: hidden;
+    width: 260px;
     margin-top: 20px; }
   .tea .tea-contain .tea-col .con .title {
-    width: 280px; }
+    width: 260px; }
+  .tea .tea-contain .tea-col .con .title h6 {
+    margin-left: 0; }
   .tea .tea-contain .tea-col .con .title p {
     width: 100%; }
   .tea .tea-contain .t-lef {
     left: -200px; }
   .tea .tea-contain .t-mid {
     left: 50%;
-    margin-left: -140px;
+    margin-left: -130px;
     z-index: 20; }
   .tea .tea-contain .t-righ {
     right: -200px; }
   .tea-contain {
     width: 100%;
-    margin-top: 40px;
-    overflow: hidden; }
+    margin-top: 40px; }
     .tea-contain .tea-col {
       float: none;
       position: absolute;
-      width: 280px; }
+      width: 260px; }
       .tea-contain .tea-col .con {
         width: 100%; }
         .tea-contain .tea-col .con .tea-img {
-          width: 280px; }
+          width: 260px; }
           .tea-contain .tea-col .con .tea-img img {
-            width: 280px; } }
+            width: 260px; } }

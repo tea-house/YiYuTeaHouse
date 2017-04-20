@@ -583,6 +583,9 @@ img{
           line-height:40px;
       }
   }
+  .tea{
+      overflow: hidden;
+  }
   .tea .tea-contain{
       height:242px;
   }
@@ -595,12 +598,14 @@ img{
   .tea .tea-contain .tea-col{
       float:none;
       position: absolute;
-      width:280px;
-      overflow: hidden;
+      width:260px;
       margin-top:20px;
   }
   .tea .tea-contain .tea-col .con .title{
-      width:280px;
+      width:260px;
+  }
+  .tea .tea-contain .tea-col .con .title h6{
+      margin-left:0;
   }
   .tea .tea-contain .tea-col .con .title p{
       width:100%;
@@ -610,7 +615,7 @@ img{
   }
   .tea .tea-contain .t-mid{
       left:50%;
-      margin-left:-140px;
+      margin-left:-130px;
       z-index:20;
   }
   .tea .tea-contain .t-righ{
@@ -619,17 +624,16 @@ img{
   .tea-contain{
       width:100%;
       margin-top:40px;
-      overflow: hidden;
     .tea-col{
         float:none;
         position: absolute;
-        width:280px;
+        width:260px;
       .con{
           width:100%;
           .tea-img{
-              width:280px;
+              width:260px;
               img{
-                width:280px;  
+                width:260px;  
               }
           }   
       }
