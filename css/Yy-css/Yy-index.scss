@@ -386,6 +386,24 @@ img{
             }
         }
     }
+    div.bttn{
+    width:80%;
+    height:42px;
+    margin:0 auto;
+    margin-top:20px;
+        button{
+            background-color:#F0F4F3;
+            @include border;
+            width:80px;
+            height:42px;
+            font-size:14px;
+            color:#333;
+            float:right;
+        }
+        button.null{
+            margin-right:5%;
+        }
+    }
 }
 //底部开始
 footer{
