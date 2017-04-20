@@ -75,5 +75,10 @@ $(function(){
 			}
 		})
 	}
+	$('.tea .tea-contain .t-row .tea-col').hover(function(){
+		$(this).addClass('t-active');
+	},function(){
+		$(this).removeClass('t-active');
+	})
 	
 })

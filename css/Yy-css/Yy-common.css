@@ -64,21 +64,22 @@
   left: 0;
   z-index: 100000;
   background-color: #f0f4f3;
-  width: 100%; }
+  width: 100%;
+  height: 60px; }
   .sm-header .logo {
     padding: 0;
-    height: 88px; }
+    height: 60px; }
     .sm-header .logo .logo-img {
       width: 100%;
       height: 100%;
       background-image: url("../../image/Yy-image/home_01.png");
-      background-size: cover;
+      background-size: 70%;
       background-position: center; }
   .sm-header .search {
     height: 100%; }
     .sm-header .search .outborder {
-      height: 48px;
-      margin: 20px auto;
+      height: 40px;
+      margin: 10px auto;
       width: 100%;
       border: 1px solid #b5b5b5;
       border-radius: 4px;
@@ -91,13 +92,13 @@
         background-repeat: no-repeat;
         background-position: center; }
   .sm-header .menu {
-    height: 88px;
+    height: 60px;
     padding: 0; }
     .sm-header .menu .menu-img {
       width: 100%;
       height: 100%;
       background-image: url("../../image/Yy-image/home_03.png");
-      background-size: cover;
+      background-size: 80%;
       background-position: center; }
 
 .sm-header .search .outborder input, .header .search .outborder input {
@@ -111,7 +112,7 @@
 
 .sm-header .pull {
   position: absolute;
-  top: 88px;
+  top: 60px;
   border-top: 1px solid #c5c5c5;
   left: 0;
   width: 100%;
@@ -224,4 +225,4 @@
     display: block; }
   .banner {
     height: 420px;
-    margin-top: 88px; } }
+    margin-top: 60px; } }
