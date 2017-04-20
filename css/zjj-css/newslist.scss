@@ -328,14 +328,18 @@ div.row.context{
         margin: 15px auto;
         overflow: hidden;
         .tu{
-          width: 40%;
+          width: 45%;
           float:left;
+
+
           img{
             width: auto;
           }
         }
         .wen{
           width: 50%;
+          margin-left: 5%;
+          box-sizing:border-box;
           float: left;
           #p1,#p2,#p3{
             width:100%;
