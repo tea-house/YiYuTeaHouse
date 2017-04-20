@@ -129,7 +129,7 @@ div.row.context div.leftxs div.intro div.font p {
   width: 100%;
   text-align: center;
   color: #9c9c9c;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 0;
 }
 
@@ -139,7 +139,7 @@ div.row.context div.leftxs div.intro div.font p:nth-child(1) {
 }
 
 div.row.context div.leftxs div.intro div.font p:nth-child(2) {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 2.2em;
 }
 
