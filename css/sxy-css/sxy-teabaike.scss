@@ -150,11 +150,55 @@ div.row.content-detail{
             box-sizing:border-box; 
             margin:0 auto;
         }
+        >p:nth-of-type(1){
+            width:95%;
+            text-align:center;
+            font-size:30px;
+            padding-top:10px;
+            box-sizing:border-box;
+            margin-bottom:0px;
+            color:#565656;
+            margin:0 auto;
+        }
+        >p:nth-of-type(2){
+            width:95%;
+            text-align:center;
+            font-size:18px;
+            color:#4e4e4e;
+            margin:0 auto;
+        }
+        >p:nth-of-type(3){
+            width:95%;
+            text-align:center;
+            font-size:18px;
+            color:#4e4e4e;
+            margin:0 auto;
+            height:40px;
+            line-height:40px;
+            letter-spacing: 5px;
+        }
+        @media screen and (max-width:768px){
+            > p:nth-of-type(1){
+                font-size:16px;
+            }
+            > p:nth-of-type(2){
+                font-size:12px;
+            }
+            > p:nth-of-type(3){
+                font-size:12px;
+            }
+        }
     }
 }
 .rowlist{
     margin-top: 30px;
     height: auto;
+}
+.rowlist1{
+    display: none;
+}
+.sxy-active{
+    display: block;
 }
 .rowlist  .sxy-bgrect{
     margin: 15px 0;
