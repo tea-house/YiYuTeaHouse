@@ -87,21 +87,35 @@ a:hover {
   color: #fff;
 }
 
-.sm-header {
+.sm-hidden {
   width: 100%;
-  height: 88px;
+  height: 100%;
+  background-color: #f0f4f3;
+  overflow: hidden;
+}
+
+.sm-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  background-color: #f0f4f3;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c5c5c5;
 }
 
 .sm-header .logo {
   padding: 0;
-  height: 88px;
+  height: 60px;
 }
 
 .sm-header .logo .logo-img {
   width: 100%;
   height: 100%;
   background-image: url("../../image/Yy-image/home_01.png");
-  background-size: cover;
+  background-size: 86%;
   background-position: center;
 }
 
@@ -110,8 +124,8 @@ a:hover {
 }
 
 .sm-header .search .outborder {
-  height: 48px;
-  margin: 20px auto;
+  height: 40px;
+  margin: 10px auto;
   width: 100%;
   border: 1px solid #b5b5b5;
   border-radius: 4px;
@@ -128,7 +142,7 @@ a:hover {
 }
 
 .sm-header .menu {
-  height: 88px;
+  height: 60px;
   padding: 0;
 }
 
@@ -136,7 +150,7 @@ a:hover {
   width: 100%;
   height: 100%;
   background-image: url("../../image/Yy-image/home_03.png");
-  background-size: cover;
+  background-size: 86%;
   background-position: center;
 }
 
@@ -148,6 +162,36 @@ a:hover {
   border: none;
   outline: none;
   text-indent: 6px;
+}
+
+.pull {
+  position: absolute;
+  top: 60px;
+  border-top: 1px solid #c5c5c5;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f0f4f3;
+  text-align: center;
+  display: none;
+}
+
+.pull li {
+  height: 16.66666%;
+}
+
+.pull a {
+  color: #333;
+}
+
+.pull h6 {
+  margin-top: 28px;
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 0;
 }
 
 .banner {
@@ -197,6 +241,10 @@ a:hover {
   background-image: url("../../image/Yy-image/bn5.png");
 }
 
+.banner ul.box li:first-child {
+  z-index: 40;
+}
+
 .banner ul.circle {
   position: absolute;
   bottom: 10px;
@@ -237,6 +285,7 @@ a:hover {
   display: none;
   transition: all 0.3s;
   cursor: pointer;
+  z-index: 60;
 }
 
 .banner .left {
@@ -280,92 +329,13 @@ a:hover {
   }
   .banner {
     height: 420px;
+    margin-top: 60px;
   }
-}
-
-.banner {
-  width: 100%;
-  height: 660px;
-  position: relative;
-}
-
-.banner ul.box {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.banner ul.box li {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-}
-
-.banner ul.box li a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-.banner ul.box li .lis1 {
-  background-image: url("../../image/Yy-image/home_08.png");
-}
-
-.banner ul.circle {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  height: 10px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 200;
-}
-
-.banner ul.circle li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.banner ul.circle .select {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.banner .left, .banner .right {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  line-height: 60px;
-  text-align: center;
-  font-family: '宋体';
-  font-size: 30px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.4);
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  display: none;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.banner .left {
-  left: 20px;
-}
-
-.banner .right {
-  right: 20px;
 }
 
 div.row.context {
   margin-top: 98px;
+  height: auto;
 }
 
 div.row.context div.left {
