@@ -693,7 +693,14 @@ div.row.context{
         text-align: left;
         //margin:0 auto;
         padding: 0 5%;
-
+        img{
+          width: 5%;
+        }
+        span{
+          font-size: 14px;
+          color: #222;
+          padding: 10px;
+        }
       }
       div.tuwen{
         width: 90%;
@@ -720,6 +727,10 @@ div.row.context{
             overflow: hidden;
             font-size: 12px;
             text-align: left;
+          }
+          #p3>span{
+            font-family: "苹方";
+
           }
         }
       }
