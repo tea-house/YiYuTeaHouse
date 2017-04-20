@@ -298,71 +298,6 @@ body {
     width: 300px;
     margin-top: 40px; }
 
-.tea {
-  width: 100%; }
-  .tea .head {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 82px;
-    text-align: center; }
-    .tea .head img {
-      width: 150px; }
-  .tea .line {
-    width: 450px;
-    margin: 0 auto; }
-    .tea .line ul {
-      width: 36%;
-      height: 4px;
-      margin: 0 auto;
-      margin-top: 24px;
-      display: flex;
-      justify-content: space-between; }
-      .tea .line ul li {
-        width: 25%;
-        height: 2px;
-        border-radius: 2px;
-        background-color: #bfbfbf; }
-  .tea .tea-list {
-    width: 420px;
-    margin: 0 auto;
-    margin-top: 28px;
-    display: flex;
-    justify-content: space-around; }
-    .tea .tea-list li {
-      font-size: 16px;
-      color: #585757;
-      font-weight: 500; }
-    .tea .tea-list .active {
-      text-decoration: underline; }
-  .tea .tea-contain {
-    margin-top: 20px; }
-    .tea .tea-contain .tea-col {
-      margin: 0 auto;
-      z-index: 10;
-      text-align: center; }
-      .tea .tea-contain .tea-col .title h6 {
-        display: inline-block;
-        font-size: 14px;
-        margin-left: 8px;
-        font-weight: normal; }
-      .tea .tea-contain .tea-col .title p {
-        text-align: left;
-        margin: 0 auto;
-        margin-top: 8px;
-        width: 80%;
-        line-height: 20px;
-        font-size: 12px;
-        color: #2f2f2f; }
-    .tea .tea-contain .active {
-      z-index: 30; }
-
-.tea .more {
-  width: 100%;
-  text-align: center; }
-  .tea .more img {
-    width: 300px;
-    margin-top: 40px; }
-
 .contact {
   width: 100%; }
   .contact .head {
@@ -378,7 +313,7 @@ body {
     font-size: 12px;
     text-align: center; }
   .contact .area {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto; }
     .contact .area .con-lef {
       width: 33.33333%; }
