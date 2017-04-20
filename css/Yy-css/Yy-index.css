@@ -322,6 +322,9 @@ body {
         height: 2px;
         border-radius: 2px;
         background-color: #bfbfbf; }
+  .tea .tea .tea-contain .t-row {
+    width: 80%;
+    margin: 0 auto; }
   .tea .tea-list {
     width: 420px;
     margin: 0 auto;
@@ -501,7 +504,7 @@ body {
   .tea {
     overflow: hidden; }
   .tea .tea-contain {
-    height: 242px; }
+    height: 236px; }
   .tea .tea-content {
     display: none; }
   .tea .tea-contain .t-row {
@@ -539,4 +542,7 @@ body {
         .tea-contain .tea-col .con .tea-img {
           width: 220px; }
           .tea-contain .tea-col .con .tea-img img {
-            width: 220px; } }
+            width: 220px; }
+  .tea .line {
+    width: 80%;
+    margin-top: 10px; } }

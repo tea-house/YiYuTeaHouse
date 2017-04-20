@@ -358,6 +358,11 @@ body{
       @include line;
     }
 }
+.tea .tea-contain .t-row{
+    width:80%;
+    margin:0 auto;
+    
+}
 .tea-list{
     width:420px;
     margin:0 auto;
@@ -587,7 +592,7 @@ img{
       overflow: hidden;
   }
   .tea .tea-contain{
-      height:242px;
+      height:236px;
   }
   .tea .tea-content{
       display: none;
@@ -642,36 +647,8 @@ img{
       }
     }
   } 
+  .tea .line{
+      width:80%;
+      margin-top:10px;
+  }
 }
-//.tea-contain{
-//  margin-top:20px;
-//  .tea-col{
-//      float:left;
-//      box-sizing: border-box;
-//      width:33.33333%;
-//      margin:0 auto;
-//      z-index:10;
-//      .con{
-//          width:80%;
-//          .title{
-//              h6{
-//                display: inline-block;
-//                font-size:14px;
-//                margin-left:8px;
-//                font-weight:normal;
-//              }
-//              p{
-//                margin-top:8px;
-//                width:80%;
-//                line-height:20px;
-//                font-size:12px;
-//                color:#2f2f2f;
-//              }
-//    }
-//          
-//      }
-//  }
-//  .active{
-//      z-index:30;
-//  }
-//}
