@@ -80,5 +80,73 @@ $(function(){
 	},function(){
 		$(this).removeClass('t-active');
 	})
-	
+	var swiper = new Swiper('.swiper-container', {
+       
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+       	slidesPerView:"auto",
+        coverflow: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows : true
+        },
+        loop:true,
+        autoplay:2000,
+    });
+    
+    var clear=$('button.null');//清空按钮
+	var sub=$('button.sub');//提交按钮
+	var inp=$('form input,textarea');
+
+	//2.清空功能
+	clear.click(function(e){
+		e.preventDefault();
+		inp.val('');
+		$('form div.error').remove();
+	})
+	//3.提交功能
+	var j=4;
+	sub.click(function(e){
+		e.preventDefault();
+		if(inp.eq(0).val()&&inp.eq(1).val()&&inp.eq(2).val()&&inp.eq(3).
+		val()&&(!$('form div.error').html())){
+			alert('提交成功')
+			inp.val('');
+		}else{
+			if($('form div.error').html()){
+				alert('请确保格式正确');
+			}else{
+				alert('请输入内容');
+			}
+			
+		}
+	})
+	$('form').validate({
+		rules:{
+			name:{
+				required:true,
+			},
+			email:{
+				required: true,
+			},
+			title:{
+				required: true,
+			}
+		},
+		messages:{
+			name:{
+				required:'please input your name',
+			},
+			email:{
+				required: 'please input your email',
+			},
+			title:{
+				required: 'please input your title',
+			}
+		},
+		errorElement:'div',//设置提示信息的标签类型
+	})
 })
