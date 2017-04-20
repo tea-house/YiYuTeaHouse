@@ -706,12 +706,12 @@ div.row.context div.right .right-list .h-line:nth-child(1) {
     padding: 0 5%;
   }
   .rightxp-list div.guide img {
-    width: 5%;
+    width: 10%;
   }
   .rightxp-list div.guide span {
     font-size: 14px;
     color: #222;
-    padding: 10px;
+    padding: 5px;
   }
   .rightxp-list div.tuwen {
     width: 90%;
