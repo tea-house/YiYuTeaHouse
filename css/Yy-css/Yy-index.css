@@ -520,13 +520,13 @@ body {
   .tea .tea-contain .tea-col .con .title p {
     width: 100%; }
   .tea .tea-contain .t-lef {
-    left: -200px; }
+    left: -180px; }
   .tea .tea-contain .t-mid {
     left: 50%;
     margin-left: -110px;
     z-index: 20; }
   .tea .tea-contain .t-righ {
-    right: -200px; }
+    right: -180px; }
   .tea-contain {
     width: 100%;
     margin-top: 40px; }
