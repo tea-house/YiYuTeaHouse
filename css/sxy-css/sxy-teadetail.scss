@@ -108,16 +108,16 @@ div.row.content-detail{
                     width:100%;
                     text-align:center;
                     color:#9c9c9c;
-                    font-size:30px;
+                    font-size:22px;
                     margin-bottom:0;
                 }
                 p:nth-child(1){
                     font-family:"times new roman";
-                    line-height:1em;
+                    line-height:1.5em;
                 }
                 p:nth-child(2){
-                    font-size:20px;
-                    line-height:1.1em;
+                    font-size:14px;
+                    line-height:2em;
                 }
             }
             div.font:first-child{
@@ -152,7 +152,7 @@ div.row.content-detail{
             margin:0 auto;
         }
         .sxy-detailcontent{
-            width: 70%;
+            width: 84%;
             margin: 30px auto;
             text-align: center;
             .sxy-lihua{
@@ -255,6 +255,20 @@ footer{
         }
         .sxy-row2{
             padding: 50px 0;
+        }
+    }
+    @media (max-width: 768px){
+        .sxy-footlist>li{
+            display: none;
+        }
+        .sxy-footlist>.sxy-line{
+            display: none;
+        }
+        .sxy-row2>div{
+            font-size: 12px;
+        }
+        .sxy-footlist p> a{
+            font-size: 20px;
         }
     }
 }

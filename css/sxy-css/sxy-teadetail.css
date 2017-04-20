@@ -125,18 +125,18 @@ div.row.content-detail div.leftxs div.intro div.font p {
   width: 100%;
   text-align: center;
   color: #9c9c9c;
-  font-size: 30px;
+  font-size: 22px;
   margin-bottom: 0;
 }
 
 div.row.content-detail div.leftxs div.intro div.font p:nth-child(1) {
   font-family: "times new roman";
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 div.row.content-detail div.leftxs div.intro div.font p:nth-child(2) {
-  font-size: 20px;
-  line-height: 1.1em;
+  font-size: 14px;
+  line-height: 2em;
 }
 
 div.row.content-detail div.leftxs div.intro div.font:first-child {
@@ -174,7 +174,7 @@ div.row.content-detail div.right div.title {
 }
 
 div.row.content-detail div.right .sxy-detailcontent {
-  width: 70%;
+  width: 84%;
   margin: 30px auto;
   text-align: center;
 }
@@ -282,6 +282,21 @@ footer {
   }
   footer .sxy-row2 {
     padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .sxy-footlist > li {
+    display: none;
+  }
+  footer .sxy-footlist > .sxy-line {
+    display: none;
+  }
+  footer .sxy-row2 > div {
+    font-size: 12px;
+  }
+  footer .sxy-footlist p > a {
+    font-size: 20px;
   }
 }
 
