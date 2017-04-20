@@ -111,13 +111,13 @@ body {
     .about .container .row .about-list .about-text p {
       color: #444;
       letter-spacing: 2px;
-      font-family: '宋体';
+      font-font-family: '宋体';
       font-size: 12px;
       margin: 0; }
     .about .container .row .about-list .about-text span {
       color: #444;
       letter-spacing: 2px;
-      font-family: '宋体';
+      font-font-family: '宋体';
       font-size: 12px;
       line-height: 0;
       font-size: 20px; }
@@ -176,7 +176,7 @@ body {
   .around .text p {
     color: #444;
     letter-spacing: 2px;
-    font-family: '宋体';
+    font-font-family: '宋体';
     font-size: 12px; }
   .around .text ul {
     width: 36%;
@@ -214,7 +214,7 @@ body {
         .pro .container .ar-row .col p {
           color: #444;
           letter-spacing: 2px;
-          font-family: '宋体';
+          font-font-family: '宋体';
           font-size: 12px;
           margin-top: 10px; }
       .pro .container .ar-row .col-mid {
@@ -226,7 +226,7 @@ body {
         .pro .container .ar-row .col-mid p {
           color: #444;
           letter-spacing: 2px;
-          font-family: '宋体';
+          font-font-family: '宋体';
           font-size: 12px;
           margin-top: 10px; }
 
@@ -295,6 +295,73 @@ body {
   width: 100%;
   text-align: center; }
   .news .more img {
+    width: 300px;
+    margin-top: 40px; }
+
+.tea {
+  width: 100%; }
+  .tea .head {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 82px;
+    text-align: center; }
+    .tea .head img {
+      width: 150px; }
+  .tea .line {
+    width: 450px;
+    margin: 0 auto; }
+    .tea .line ul {
+      width: 36%;
+      height: 4px;
+      margin: 0 auto;
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between; }
+      .tea .line ul li {
+        width: 25%;
+        height: 2px;
+        border-radius: 2px;
+        background-color: #bfbfbf; }
+  .tea .tea-list {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-around; }
+    .tea .tea-list li {
+      font-size: 16px;
+      color: #585757;
+      font-weight: 500; }
+    .tea .tea-list .active {
+      text-decoration: underline; }
+  .tea .tea-contain {
+    margin-top: 20px; }
+    .tea .tea-contain .tea-col {
+      float: left;
+      box-sizing: border-box;
+      width: 33.33333%;
+      margin: 0 auto;
+      z-index: 10; }
+      .tea .tea-contain .tea-col .con {
+        width: 80%; }
+        .tea .tea-contain .tea-col .con .title h6 {
+          display: inline-block;
+          font-size: 14px;
+          margin-left: 8px;
+          font-weight: normal; }
+        .tea .tea-contain .tea-col .con .title p {
+          margin-top: 8px;
+          width: 80%;
+          line-height: 20px;
+          font-size: 12px;
+          color: #2f2f2f; }
+    .tea .tea-contain .active {
+      z-index: 30; }
+
+.tea .more {
+  width: 100%;
+  text-align: center; }
+  .tea .more img {
     width: 300px;
     margin-top: 40px; }
 
@@ -430,4 +497,34 @@ body {
     .news .context .n-list .content .righ .more {
       margin-top: 10px; }
     .news .context .n-list .content .righ span {
-      line-height: 40px; } }
+      line-height: 40px; }
+  .tea .tea-contain {
+    height: 242px; }
+  .tea .tea-contain .t-row {
+    position: relative; }
+  .tea .tea-contain .tea-col {
+    float: none;
+    position: absolute;
+    width: 280px;
+    overflow: hidden; }
+  .tea .tea-contain .t-lef {
+    left: -180px; }
+  .tea .tea-contain .t-mid {
+    left: 50%;
+    margin-left: -140px;
+    z-index: 20; }
+  .tea .tea-contain .t-righ {
+    right: -180px; }
+  .tea-contain {
+    width: 100%;
+    margin-top: 40px; }
+    .tea-contain .tea-col {
+      float: none;
+      position: absolute;
+      width: 280px; }
+      .tea-contain .tea-col .con {
+        width: 100%; }
+        .tea-contain .tea-col .con .tea-img {
+          width: 280px; }
+          .tea-contain .tea-col .con .tea-img img {
+            width: 280px; } }

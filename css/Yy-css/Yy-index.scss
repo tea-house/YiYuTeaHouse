@@ -3,6 +3,7 @@ body{
   background-color:#f0f4f3;
   height:6000px;
   overflow: auto;
+//overflow:hidden;
 }
 @mixin border{
   width:100%;
@@ -13,7 +14,7 @@ body{
   color:#444;
   letter-spacing:2px;
   font:{
-    family:'宋体';
+    font-family:'宋体';
     size:12px;
   }
 }
@@ -349,72 +350,71 @@ body{
   }
 }
 //百科茶叶
-//.tea{
-//@include title;
-//.line{
-//  width:450px;
-//  margin:0 auto;
-//  ul{
-//    @include line;
-//  }
-//}
-//.tea-list{
-//  width:420px;
-//  margin:0 auto;
-//  margin-top:28px;
-//  display:flex;
-//  justify-content:space-around;
-//  li{
-//    font-size:16px;
-//    color:#585757;
-//    font-weight:500;
-//  }
-//  .active{
-//    text-decoration: underline;
-//  }
-//}
-//.tea-contain{
-//  margin-top:20px;
-//  .tea-col{
-//      float:left;
-//      box-sizing: border-box;
-//      width:33.33333%;
-//      margin:0 auto;
-//      z-index:10;
-//      .con{
-//          width:80%;
-//          margin 0 auto;
-//          .title{
-//              h6{
-//                display: inline-block;
-//                font-size:14px;
-//                margin-left:8px;
-//                font-weight:normal;
-//              }
-//              p{
-//                margin-top:8px;
-//                width:80%;
-//                line-height:20px;
-//                font-size:12px;
-//                color:#2f2f2f;
-//              }
-//    }
-//          
-//      }
-//  }
-//  .active{
-//      z-index:30;
-//  }
-//}
-//}
-//.tea .more{
-//width:100%;
-//text-align: center;
-//img{
-//  width:300px;
-//  margin-top:40px;
-//}
-//}
+.tea{
+@include title;
+.line{
+    width:450px;
+    margin:0 auto;
+    ul{
+      @include line;
+    }
+}
+.tea-list{
+    width:420px;
+    margin:0 auto;
+    margin-top:28px;
+    display:flex;
+    justify-content:space-around;
+    li{
+      font-size:16px;
+      color:#585757;
+      font-weight:500;
+    }
+    .active{
+      text-decoration: underline;
+    }
+}
+.tea-contain{
+    margin-top:20px;
+    .tea-col{
+        float:left;
+        box-sizing: border-box;
+        width:33.33333%;
+        margin:0 auto;
+        z-index:10;
+        .con{
+            width:80%;
+            .title{
+                h6{
+                  display: inline-block;
+                  font-size:14px;
+                  margin-left:8px;
+                  font-weight:normal;
+                }
+                p{
+                  margin-top:8px;
+                  width:80%;
+                  line-height:20px;
+                  font-size:12px;
+                  color:#2f2f2f;
+                }
+      }
+            
+        }
+    }
+    .active{
+        z-index:30;
+    }
+}
+}
+.tea .more{
+width:100%;
+text-align: center;
+img{
+    width:300px;
+    margin-top:40px;
+}
+}
 //联系我们
 .contact{
     @include title;
@@ -584,58 +584,78 @@ body{
           line-height:40px;
       }
   }
+  .tea .tea-contain{
+      height:242px;
+  }
+  .tea .tea-contain .t-row{
+      position: relative;
+  }
+  .tea .tea-contain .tea-col{
+      float:none;
+      position: absolute;
+      width:280px;
+      overflow: hidden;
+  }
+  .tea .tea-contain .t-lef{
+      left:-180px;
+  }
+  .tea .tea-contain .t-mid{
+      left:50%;
+      margin-left:-140px;
+      z-index:20;
+  }
+  .tea .tea-contain .t-righ{
+      right:-180px;
+  }
+  .tea-contain{
+      width:100%;
+//    position: relative;
+      margin-top:40px;
+    .tea-col{
+        float:none;
+        position: absolute;
+        width:280px;
+      .con{
+          width:100%;
+          .tea-img{
+              width:280px;
+              img{
+                width:280px;  
+              }
+          }
+      }
+    }
+  } 
 }
-//.news{
-//@include title;
-//.context{
+//.tea-contain{
 //  margin-top:20px;
-//  .n-list{
-//    margin-top:20px;
-//    h6 img{
-//      width:24px;
-//    }
-//    h6 p{
-//      display: inline-block;
-//      margin-left:10px;
-//      font-size:16px;
-//      color:#333;
-//
-//    }
-//    .content{
-//      padding-left:7%;
+//  .tea-col{
+//      float:left;
 //      box-sizing: border-box;
-//      .left{
-//        float:left;
-//        width:36%;
-//        img{
-//          width:180px;
-//        }
-//      }
-//      .righ{
-//        float:left;
-//        width:64%;
-//        p{
-//          font-size:12px;
-//          color:#444;
-//        }
-//        .more{
-//          float:left;
-//          width:18px;
-//          height:18px;
-//          background-color:rgba(0,0,0,0.3);
-//          text-align: center;
-//          line-height:14px;
-//          font-size:16px;
-//          color:#fff;
-//          border-radius:50%;
-//          margin-top:20px;
-//        }
-//        span{
-//          line-height:60px;
-//          margin-left:10px;
-//        }
-//      }
+//      width:33.33333%;
+//      margin:0 auto;
+//      z-index:10;
+//      .con{
+//          width:80%;
+//          .title{
+//              h6{
+//                display: inline-block;
+//                font-size:14px;
+//                margin-left:8px;
+//                font-weight:normal;
+//              }
+//              p{
+//                margin-top:8px;
+//                width:80%;
+//                line-height:20px;
+//                font-size:12px;
+//                color:#2f2f2f;
+//              }
 //    }
+//          
+//      }
 //  }
-//}
+//  .active{
+//      z-index:30;
+//  }
 //}
