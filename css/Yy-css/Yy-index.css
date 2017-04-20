@@ -509,19 +509,21 @@ body {
   .tea .tea-contain .tea-col {
     float: none;
     position: absolute;
-    width: 260px;
+    width: 220px;
     margin-top: 20px; }
   .tea .tea-contain .tea-col .con .title {
-    width: 260px; }
+    width: 220px; }
+  .tea .tea-contain .tea-col .con .title img {
+    text-align: center; }
   .tea .tea-contain .tea-col .con .title h6 {
-    margin-left: 0; }
+    margin-left: 4px; }
   .tea .tea-contain .tea-col .con .title p {
     width: 100%; }
   .tea .tea-contain .t-lef {
     left: -200px; }
   .tea .tea-contain .t-mid {
     left: 50%;
-    margin-left: -130px;
+    margin-left: -110px;
     z-index: 20; }
   .tea .tea-contain .t-righ {
     right: -200px; }
@@ -531,10 +533,10 @@ body {
     .tea-contain .tea-col {
       float: none;
       position: absolute;
-      width: 260px; }
+      width: 220px; }
       .tea-contain .tea-col .con {
         width: 100%; }
         .tea-contain .tea-col .con .tea-img {
-          width: 260px; }
+          width: 220px; }
           .tea-contain .tea-col .con .tea-img img {
-            width: 260px; } }
+            width: 220px; } }
