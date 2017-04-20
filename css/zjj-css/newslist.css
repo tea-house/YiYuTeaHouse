@@ -533,6 +533,7 @@ div.row.context div.right p:nth-of-type(1) {
   font-size: 30px;
   padding-top: 10px;
   box-sizing: border-box;
+  margin-bottom: 0px;
   color: #565656;
   margin: 0 auto;
 }
@@ -554,6 +555,18 @@ div.row.context div.right p:nth-of-type(3) {
   height: 40px;
   line-height: 40px;
   letter-spacing: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  div.row.context div.right > p:nth-of-type(1) {
+    font-size: 16px;
+  }
+  div.row.context div.right > p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  div.row.context div.right > p:nth-of-type(3) {
+    font-size: 12px;
+  }
 }
 
 div.row.context div.right .right-head {
