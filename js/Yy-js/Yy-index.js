@@ -7,7 +7,7 @@ $(function(){
 			lis.off();
 			lis.click(function(){
 				$('body,html').toggleClass('sm-hidden');
-				$('.sm-header .pull').slideToggle(500);
+				$('.pull').slideToggle(500);
 			})
 		}
 	})

@@ -529,11 +529,10 @@ footer {
     position: relative; }
   .tea .tea-contain .tea-col {
     float: none;
-    position: absolute;
-    width: 220px;
+    margin: 0 auto;
     margin-top: 20px; }
   .tea .tea-contain .tea-col .con .title {
-    width: 220px; }
+    width: 100%; }
   .tea .tea-contain .tea-col .con .title img {
     text-align: center; }
   .tea .tea-contain .tea-col .con .title h6 {
@@ -541,26 +540,28 @@ footer {
   .tea .tea-contain .tea-col .con .title p {
     width: 100%; }
   .tea .tea-contain .t-lef {
-    left: -180px; }
+    left: -180px;
+    display: none; }
   .tea .tea-contain .t-mid {
-    left: 50%;
-    margin-left: -110px;
+    width: 100%;
     z-index: 20; }
   .tea .tea-contain .t-righ {
+    display: none;
     right: -180px; }
   .tea-contain {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 40px; }
     .tea-contain .tea-col {
       float: none;
-      position: absolute;
-      width: 220px; }
+      margin: 0 auto;
+      width: 100%; }
       .tea-contain .tea-col .con {
         width: 100%; }
         .tea-contain .tea-col .con .tea-img {
-          width: 220px; }
+          width: 100%; }
           .tea-contain .tea-col .con .tea-img img {
-            width: 220px; }
+            width: 100%; }
   .tea .line {
     width: 80%;
     margin-top: 10px; }
