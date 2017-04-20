@@ -9,15 +9,95 @@
 		
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/cr-css/message.css" />
+		<link rel="stylesheet" href="css/Yy-css/Yy-common.css" />
 		
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/cr-js/jquery.validate.js"></script>
+		<script src="js/Yy-js/Yy-index.js"></script>
 	</head>
 	<body>
 		<!--头部+banner-->
-		<div class="head">
-			
+		<!--导航开始-->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="logo col-sm-2 col-md-1">
+						<img src="image/Yy-image/home_02.png" alt="" />
+					</div>
+					<div class="nav col-sm-7 col-md-8">
+						<ul>
+							<li class="active"><a href="Yy-index.html">首页</a></li>
+							<li><a href="cr-aboutus.html">关于我们</a></li>
+							<li><a href="javascript:;">茶馆环境</a></li>
+							<li><a href="javascript:;">我们产品</a></li>
+							<li><a href="zjj-newslist.html">新闻中心</a></li>
+							<li><a href="sxy-teabaike.html">茶叶百科</a></li>
+							<li><a href="cr-message.html">联系我们</a></li>
+						</ul>
+					</div>
+					<div class="search col-sm-3 col-md-3">
+						<div class="outborder">
+							<input type="text">
+							<div class="icon"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="sm-header">
+			<div class="container">
+				<div class="row">
+					<div class="logo col-xs-2">
+						<div class="logo-img"></div>
+					</div>
+					<div class="search col-xs-8">
+						<div class="outborder">
+							<input type="text">
+							<div class="icon"></div>
+						</div>
+					</div>
+					<div class="menu col-xs-2">
+						<div class="menu-img"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+		<!--banner开始-->
+		<div class="banner">
+			<ul class="box">
+				<li class="on">
+					<a href="" class="lis1"></a>
+				</li>
+				<li>
+					<a href="" class="lis2"></a>
+				</li>
+				<li>
+					<a href="" class="lis3"></a>
+				</li>
+				<li>
+					<a href="" class="lis4"></a>
+				</li>
+				<li>
+					<a href="" class="lis5"></a>
+				</li>
+			</ul>
+			<ul class="circle">
+				<li class="select"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="left">&lt;</div>
+			<div class="right">&gt;</div>
+		</div>
+		<!--banner结束-->
+		
+		
+		
+		
 	<!--内容-->	
 		<div class="container">
 			<div class="row context">
@@ -78,77 +158,18 @@
 					<img src="image/cr-image/abus_22.png" alt="" />
 					<!--留言区-->
 					<form action="">
-						<input type="text" placeholder='姓名'/>
-						<input type="email" placeholder='邮箱'/>
-						<input type="text" placeholder='标题'/>
-						<textarea name="mess" id="" cols="30" rows="10" placeholder='内容'></textarea>
+						<input type="text" placeholder='姓名' name='name'/>
+						<input type="email" placeholder='邮箱' name='email'/>
+						<input type="text" placeholder='标题' name='title'/>
+						<textarea name="mess" id="" cols="30" rows="10" placeholder='内容' name='textf'></textarea>
 						<div class="bttn">
-							<button>提交</button>
+							<button class='sub'>提交</button>
 							<button class='null'>清空</button>
 						</div>
 					</form>
 					<!--已有留言-->
 					<ul class='had'>
-						<li>
-							<div class="content">
-								<div class="num">
-									<div class="cir">04</div>
-								</div>
-								<div class="name">
-									<p>代用名</p>
-									<p>2016-8-31</p>
-									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
-								</div>
-								<div class="words">
-									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="content">
-								<div class="num">
-									<div class="cir">03</div>
-								</div>
-								<div class="name">
-									<p>代用名</p>
-									<p>2016-8-31</p>
-									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
-								</div>
-								<div class="words">
-									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="content">
-								<div class="num">
-									<div class="cir">02</div>
-								</div>
-								<div class="name">
-									<p>代用名</p>
-									<p>2016-8-31</p>
-									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
-								</div>
-								<div class="words">
-									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="content">
-								<div class="num">
-									<div class="cir">01</div>
-								</div>
-								<div class="name">
-									<p>代用名</p>
-									<p>2016-8-31</p>
-									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
-								</div>
-								<div class="words">
-									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
-								</div>
-							</div>
-						</li>
+
 					</ul>
 					
 					<!--分页-->
@@ -184,11 +205,7 @@
 					<img src="image/cr-image/map_03.png" alt="" />
 				</div>
 
-			
-			
-			
-			
-			
+			<!--线-->
 			<div class="row foot hidden-xs">
 				<!--底部1-->
 				<div class="line hidden-xs col-sm-12">
@@ -208,44 +225,46 @@
 			
 	
 		<!--底部-->
-		<footer class="sxy-foot container-fluid">
-			<div class="sxy-row1 row">
-				<div class="sxy-infor col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10">
-					<ul class="sxy-footlist">
-						<div class="sxy-line"></div>
-						<li><a href="">茶馆简介</a></li>
-						<li><a href="">茶馆文化</a></li>
-						<li><a href="">专业茶师</a></li>
-						<p><a href="">关于我们</a></p>
-					</ul>
-					<ul class="sxy-footlist">
-						<div class="sxy-line"></div>
-						<li><a href="">茶包</a></li>
-						<li><a href="">茶具</a></li>
-						<li><a href="">茶叶</a></li>
-						<p><a href="">我们产品</a></p>
-					</ul>
-					<ul class="sxy-footlist">
-						<div class="sxy-line"></div>
-						<li><a href="">区域活动</a></li>
-						<li><a href="">行业新闻</a></li>
-						<li><a href="">企业新闻</a></li>
-						<p><a href="">新闻中心</a></p>
-					</ul>
-					<ul class="sxy-footlist">
-						<div class="sxy-line"></div>
-						<li><a href="">品茶鉴茶</a></li>
-						<li><a href="">茶与养生</a></li>
-						<li><a href="">茶艺茶道</a></li>
-						<p><a href="">茶叶百科</a></p>
-					</ul>
-					<div class="sxy-ma"><img src="image/sxy-image/sxy-ma.png" alt="" /></div>
+		<footer>
+			<div class="sxy-foot container">
+				<div class="sxy-row1 row">
+					<div class="sxy-infor col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
+						<ul class="sxy-footlist">
+							<div class="sxy-line"></div>
+							<li><a href="javascript:;">茶馆简介</a></li>
+							<li><a href="javascript:;">茶馆文化</a></li>
+							<li><a href="javascript:;">专业茶师</a></li>
+							<p><a href="cr-aboutus.html">关于我们</a></p>
+						</ul>
+						<ul class="sxy-footlist">
+							<div class="sxy-line"></div>
+							<li><a href="javascript:;">茶包</a></li>
+							<li><a href="javascript:;">茶具</a></li>
+							<li><a href="javascript:;">茶叶</a></li>
+							<p><a href="javascript:;">我们产品</a></p>
+						</ul>
+						<ul class="sxy-footlist">
+							<div class="sxy-line"></div>
+							<li><a href="javascript:;">区域活动</a></li>
+							<li><a href="javascript:;">行业新闻</a></li>
+							<li><a href="javascript:;">企业新闻</a></li>
+							<p><a href="zjj-newslist.html">新闻中心</a></p>
+						</ul>
+						<ul class="sxy-footlist">
+							<div class="sxy-line"></div>
+							<li><a href="javascript:;">品茶鉴茶</a></li>
+							<li><a href="javascript:;">茶与养生</a></li>
+							<li><a href="javascript:;">茶艺茶道</a></li>
+							<p><a href="sxy-teabaike.html">茶叶百科</a></p>
+						</ul>
+						<div class="sxy-ma"><img src="image/sxy-image/sxy-ma.png" alt="" /></div>
+					</div>
+				</div>
+				<div class="sxy-row2 row">
+					<div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">Copyright &copy; 2004 Adobe Systems Incorporated. All rights reserve</div>	
 				</div>
 			</div>
-			<div class="sxy-row2 row">
-				<div class="col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10">Copyright &copy; 2004 Adobe Systems Incorporated. All rights reserve</div>	
-			</div>
-	</footer>
+		</footer>
 	</body>
 </html>
 <script>
@@ -266,6 +285,10 @@
 				ind=index;
 			}
 		})
+		
+		if(ind<0){
+			ind=pagea.length-1;
+		}
 		ind=ind-1;
 		pagea.removeClass('active');
 		pagea.eq(ind).addClass('active');
@@ -279,13 +302,123 @@
 			}
 		})
 		indr=indr+1;
-		if(indr>=pagea.length){
+		if(indr>pagea.length-1){
 			indr=0;
 		}
+		
 		pagea.removeClass('active');
 		pagea.eq(indr).addClass('active');
 		
 	})
 	
+	//留言板
+	//1.写入留言
+	var ulhad=$('ul.had');
+	for(var i=0;i<4;i++){
+		var li=$('<li>');
+		li.html(`<div class="content">
+								<div class="num">
+									<div class="cir">0${4-i}</div>
+								</div>
+								<div class="name">
+									<p>代用名</p>
+									<p>2016-8-31</p>
+									<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+								</div>
+								<div class="words">
+									<p>青藤茶馆是杭城较早开始连锁经营的茶馆，由一公园至六公园，然后又回到一公园，围绕西湖做文章，规模一家比一家大。</p>
+								</div>
+							</div>`)
+		li.appendTo(ulhad);
+	}
 	
+	
+	
+	var clear=$('button.null');//清空按钮
+	var sub=$('button.sub');//提交按钮
+	var inp=$('input,textarea');
+//	inp.each(function(){
+//		if($(this).val()){
+//			console.log(false) ;
+//		}else{
+//			console.log(true);
+//		}
+//	})
+
+	//2.清空功能
+	clear.click(function(e){
+		e.preventDefault();
+		inp.val('');
+		$('form div.error').remove();
+	})
+	//3.提交功能
+	var j=4;
+	sub.click(function(e){
+		e.preventDefault();
+		if(inp.eq(0).val()&&inp.eq(1).val()&&inp.eq(2).val()&&inp.eq(3).
+		val()&&(!$('form div.error').html())){
+			j++;
+			var li=$('<li>');
+			li.html(`<div class="content">
+									<div class="num">
+										<div class="cir">0${j++}</div>
+									</div>
+									<div class="name">
+										<p>${inp.eq(0).val()}</p>
+										<p>2016-8-31</p>
+										<p><span class='del'>删除留言</span>&nbsp;/&nbsp;回复留言</p>
+									</div>
+									<div class="words">
+										<p>${inp.eq(3).val()}</p>
+									</div>
+								</div>`)
+			
+			li.prependTo(ulhad);	
+			inp.val('');
+		}else{
+			if($('form div.error').html()){
+				alert('请确保格式正确');
+			}else{
+				alert('请输入内容');
+			}
+			
+		}
+	})
+	//4.删除功能
+	var del=ulhad.find('span.del');
+	del.hover(function(){
+			$(this).css('color','red');
+	},function(){
+			$(this).css('color','#333');
+	})
+	del.click(function(){
+		$(this).parentsUntil('ul').remove();
+	})
+	
+	//5.表单验证
+	$('form').validate({
+		rules:{
+			name:{
+				required:true,
+			},
+			email:{
+				required: true,
+			},
+			title:{
+				required: true,
+			}
+		},
+		messages:{
+			name:{
+				required:'please input your name',
+			},
+			email:{
+				required: 'please input your email',
+			},
+			title:{
+				required: 'please input your title',
+			}
+		},
+		errorElement:'div',//设置提示信息的标签类型
+	})
 </script>

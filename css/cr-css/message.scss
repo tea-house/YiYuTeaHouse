@@ -131,16 +131,16 @@ div.row.context{
                     width:100%;
                     text-align:center;
                     color:#9c9c9c;
-                    font-size:30px;
+                    font-size:14px;
                     margin-bottom:0;
                 }
                 p:nth-child(1){
                     font-family:"times new roman";
-                    line-height:1em;
+                    line-height:1.8em;
                 }
                 p:nth-child(2){
-                    font-size:20px;
-                    line-height:1.1em;
+                    font-size:16px;
+                    line-height:2.2em;
                 }
             }
             div.font:first-child{
@@ -205,6 +205,35 @@ div.row.context{
             line-height:40px;
             letter-spacing: 5px;
         }
+        @media screen and (max-width:768px){
+            > p:nth-of-type(1){
+                font-size:16px;
+            }
+            > p:nth-of-type(2){
+                font-size:12px;
+            }
+            > p:nth-of-type(3){
+                font-size:12px;
+            }
+        }
+        form{
+            position:relative;
+            div.error{
+                width:95%;
+                margin-left:2.5%;
+                text-align:left;
+                position:absolute;
+                top:45px;
+                left:0;
+                color:red;
+            }
+            div#email-error{
+                top:107px;
+            }
+            div.error:nth-of-type(3){
+                top:168px;
+            }
+        }
         input{
             width:95%;
             height:42px;
@@ -215,7 +244,7 @@ div.row.context{
             border:1px solid #ADADAD;
         }
        textarea{
-           width:95%;
+            width:95% !important;
             height:220px;
             text-align:left;
             text-indent: 20px;
@@ -224,13 +253,14 @@ div.row.context{
             border:1px solid #ADADAD;
             line-height:30px;
             margin-bottom:16px;
+            resize:vertical;
         }
         div.bttn{
             width:95%;
-            height:42px;
+            height:30px;
             margin:0 auto;
             button{
-                width:100px;
+                width:80px;
                 height:42px;
                 background-color:#F0F4F3;
                 border:1px solid #ADADAD;
@@ -302,6 +332,7 @@ div.row.context{
                             margin-bottom:0;
                             span{
                                font-size:12px; 
+                               cursor:pointer;
                             }
                         }
                     }
@@ -374,13 +405,13 @@ div.row.context{
         //分页
         ul.pagination{
             width:80%;
-            height:60px;
-            margin:35px auto;
+            height:40px;
+            margin:30px auto;
             display:flex;
             justify-content:space-around;
             a.lefta,a.righta{
-                width:50px;
-                height:50px;
+                width:40px;
+                height:40px;
                 background-image:url(../../image/cr-image/cir_03.png);
                 background-position:center;
                 background-size:100%;
@@ -396,19 +427,19 @@ div.row.context{
                     font-weight:bold;
                     color:#fff;
                     text-align:center;
-                    line-height:50px;
+                    line-height:40px;
                     font-family:'宋体';
                 } 
             }
             >li.nubli{
-                width:50px;
-                padding:0;
-                margin:0;
+                width:40px;
+//              padding:0;
+//              margin:0;
                 background-color:rbga(0,0,0,0);
-                height:50px;
+                height:40px;
                 text-align:center;
-                padding-top:15px;
-                padding-left:15px;
+                padding-top:10px;
+                padding-left:1%;
 //              padding-right:15px;
                 >a.nub{
                     float:left;
@@ -474,6 +505,38 @@ div.row.foot{
 }
 
 //底部开始
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #222; 
+    @media (min-width: 768px) {
+        .sxy-footlist{
+            padding-top: 70px;
+        }
+        .sxy-infor >.sxy-ma{
+            width: 95px;
+            height: 95px;
+            padding-top: 75px;
+        }
+        .sxy-row2{
+            padding: 50px 0;
+        }
+    }
+    @media (max-width: 768px){
+        .sxy-footlist>li{
+            display: none;
+        }
+        .sxy-footlist>.sxy-line{
+            display: none;
+        }
+        .sxy-row2>div{
+            font-size: 12px;
+        }
+        .sxy-footlist p> a{
+            font-size: 20px;
+        }
+    }
+}
 .sxy-foot{
     background-color: #222;
     .sxy-infor{
@@ -485,7 +548,7 @@ div.row.foot{
     }
 }
 .sxy-footlist{
-    padding-top: 70px;
+    padding-top: 30px;
     width: 20%;
     height: auto;
     display: flex;
@@ -512,13 +575,13 @@ div.row.foot{
 .sxy-infor >.sxy-ma{
     width: 95px;
     height: 95px;
-    padding-top: 70px;
+    padding-top: 36px;
 }
 .sxy-infor >.sxy-ma > img{
     width: 95px;
 }
 .sxy-row2{
-    padding: 50px;
+    padding: 30px 0;
     text-align: center;
     div{
         color: #fff;
