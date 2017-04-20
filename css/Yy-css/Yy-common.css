@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   height: 80px; }
   .header .logo {
@@ -90,7 +91,7 @@
       background-size: cover;
       background-position: center; }
 
-.search .outborder input {
+.sm-header .search .outborder input, .header .search .outborder input {
   float: left;
   width: 86%;
   height: 100%;
@@ -98,6 +99,81 @@
   border: none;
   outline: none;
   text-indent: 6px; }
+
+.banner {
+  width: 100%;
+  height: 660px;
+  position: relative; }
+  .banner ul.box {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .banner ul.box li {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 1; }
+      .banner ul.box li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover; }
+      .banner ul.box li .lis1 {
+        background-image: url("../../image/Yy-image/home_08.png"); }
+      .banner ul.box li .lis2 {
+        background-image: url("../../image/Yy-image/bna_04.png"); }
+      .banner ul.box li .lis3 {
+        background-image: url("../../image/Yy-image/bna_06.png"); }
+      .banner ul.box li .lis4 {
+        background-image: url("../../image/Yy-image/bna_08.png"); }
+      .banner ul.box li .lis5 {
+        background-image: url("../../image/Yy-image/bn5.png"); }
+  .banner ul.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 200; }
+    .banner ul.circle li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.4); }
+    .banner ul.circle .select {
+      background-color: rgba(0, 0, 0, 0.4); }
+  .banner .left, .banner .right {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    line-height: 60px;
+    text-align: center;
+    font-family: '宋体';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    display: none;
+    transition: all 0.3s;
+    cursor: pointer; }
+  .banner .left {
+    left: 20px; }
+  .banner .right {
+    right: 20px; }
+
+.banner:hover .left, .banner:hover .right {
+  display: block; }
+
+.banner .left:hover, .banner .right:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff; }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .header .container {
@@ -113,4 +189,6 @@
   .header {
     display: none; }
   .sm-header {
-    display: block; } }
+    display: block; }
+  .banner {
+    height: 420px; } }
