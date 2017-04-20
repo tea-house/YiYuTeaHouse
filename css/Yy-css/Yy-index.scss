@@ -188,6 +188,7 @@ body{
     width:1170px;
     margin:0 auto;
     margin-top:80px;
+    position: relative;
     .ar-row{
       width:1170px;
       height:462px;
@@ -208,6 +209,23 @@ body{
         left:50%;
         margin-left:-231px;
       }
+    }
+    .a-left,.a-right{
+        position:absolute;
+        width:60px;
+        height:60px;
+        top:30%;
+        font-size:60px;
+        font-family:'宋体';
+        color:#fff;
+        font-weight:bold;
+        z-index:20;
+    }
+    .a-left{
+        left:120px;
+    }
+    .a-right{
+        right:100px;
     }
   }
 }
@@ -380,6 +398,7 @@ body{
 }
 .tea-contain{
     margin-top:20px;
+    overflow: hidden;
     .tea-col{
         float:left;
         box-sizing: border-box;

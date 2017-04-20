@@ -138,7 +138,8 @@ body {
   .around .contain {
     width: 1170px;
     margin: 0 auto;
-    margin-top: 80px; }
+    margin-top: 80px;
+    position: relative; }
     .around .contain .ar-row {
       width: 1170px;
       height: 462px;
@@ -156,6 +157,20 @@ body {
         top: -36px;
         left: 50%;
         margin-left: -231px; }
+    .around .contain .a-left, .around .contain .a-right {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 30%;
+      font-size: 60px;
+      font-family: '宋体';
+      color: #fff;
+      font-weight: bold;
+      z-index: 20; }
+    .around .contain .a-left {
+      left: 120px; }
+    .around .contain .a-right {
+      right: 100px; }
 
 .around .contain .ar-row .lef {
   float: left;
@@ -338,7 +353,8 @@ body {
     .tea .tea-list .active {
       text-decoration: underline; }
   .tea .tea-contain {
-    margin-top: 20px; }
+    margin-top: 20px;
+    overflow: hidden; }
     .tea .tea-contain .tea-col {
       float: left;
       box-sizing: border-box;
