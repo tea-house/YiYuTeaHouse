@@ -301,11 +301,19 @@ div.row.context{
             }
             p:nth-of-type(6)~p{
                 font-size:18px;
+<<<<<<< HEAD
                 line-height:1.2em;
             }
         }
 
 
+=======
+                line-height:1.2em; 
+            }
+        }
+        
+       
+>>>>>>> ba8ecc3f74712d981b519148ec44a99d3bdbc6dd
     }
 
 
@@ -361,13 +369,21 @@ div.row.foot{
         div.us:nth-of-type(1){
             border-left:1px solid #BFBFBF;
         }
+<<<<<<< HEAD
         div.us.active{
+=======
+         div.us.active{
+>>>>>>> ba8ecc3f74712d981b519148ec44a99d3bdbc6dd
             background-image:url(../../image/cr-image/bgg.png);
             background-color:#F0F4F3;
             background-position:center;
             background-size:80% 100%;
             background-repeat:no-repeat;
+<<<<<<< HEAD
         }
+=======
+         }
+>>>>>>> ba8ecc3f74712d981b519148ec44a99d3bdbc6dd
     }
 }
 

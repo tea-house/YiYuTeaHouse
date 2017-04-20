@@ -6,19 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/Yy-css/Yy-common.css" />
 		<link rel="stylesheet" href="css/Yy-css/Yy-index.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/Yy-js/Yy-index.js"></script>
 	</head>
 	<body>
 		<!--导航开始-->
 		<div class="header">
 			<div class="container">
 				<div class="row">
-					<div class="logo col-sm-1">
+					<div class="logo col-sm-2 col-md-1">
 						<img src="image/Yy-image/home_02.png" alt="" />
 					</div>
-					<div class="nav col-sm-8">
+					<div class="nav col-sm-7 col-md-8">
 						<ul>
-							<li><a href="">首页</a></li>
+							<li class="active"><a href="">首页</a></li>
 							<li><a href="">关于我们</a></li>
 							<li><a href="">茶馆环境</a></li>
 							<li><a href="">我们产品</a></li>
@@ -27,8 +30,11 @@
 							<li><a href="">联系我们</a></li>
 						</ul>
 					</div>
-					<div class="search col-sm-3">
-						<div class="outborder"></div>
+					<div class="search col-sm-3 col-md-3">
+						<div class="outborder">
+							<input type="text">
+							<div class="icon"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -36,14 +42,17 @@
 		<div class="sm-header">
 			<div class="container">
 				<div class="row">
-					<div class="logo col-xs-1 col-sm-2">
-						<img src="image/Yy-image/home_01.png" alt="" />
+					<div class="logo col-xs-2">
+						<div class="logo-img"></div>
 					</div>
-					<div class="search col-xs-10 col-sm-8">
-						<div class="outborder"></div>
+					<div class="search col-xs-8">
+						<div class="outborder">
+							<input type="text">
+							<div class="icon"></div>
+						</div>
 					</div>
-					<div class="menu col-xs-1 col-sm-2">
-						<img src="image/Yy-image/home_03.png" alt="">
+					<div class="menu col-xs-2">
+						<div class="menu-img"></div>
 					</div>
 				</div>
 			</div>
@@ -51,11 +60,318 @@
 		<!--导航结束-->
 		<!--banner开始-->
 		<div class="banner">
-			<ul>
+			<ul class="box">
+				<li class="on">
+					<a href="" class="lis1"></a>
+				</li>
 				<li>
-					<a href=""></a>
+					<a href="" class="lis2"></a>
+				</li>
+				<li>
+					<a href="" class="lis3"></a>
+				</li>
+				<li>
+					<a href="" class="lis4"></a>
+				</li>
+				<li>
+					<a href="" class="lis5"></a>
 				</li>
 			</ul>
+			<ul class="circle">
+				<li class="select"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="left">&lt;</div>
+			<div class="right">&gt;</div>
 		</div>
+		<!--banner结束-->
+		<!--关于我们开始-->
+		<div class="about">
+			<div class="head">
+				<img src="image/Yy-image/index_07.png" alt="">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="about-list col-xs-12 col-sm-6">
+						<div class="about-bg">
+							<img src="image/Yy-image/about_03.png" alt="">
+						</div>
+						<div class="about-text">
+							<p>一臾茶馆由闫晗于二零一七年一月四日提出概念</p>
+							<span>...</span>
+						</div>
+					</div>
+					<div class="about-list col-xs-12 col-sm-6">
+						<div class="about-bg">
+							<img src="image/Yy-image/about_05.png" alt="">
+						</div>
+						<div class="about-text">
+							<p>“一臾”谐音“一隅”指一个小地方，“臾”代指须臾</p>
+							<span>...</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--关于我们结束-->
+		<!--茶馆环境开始-->
+		<div class="around">
+			<div class="head">
+				<img src="image/Yy-image/index_15.png" alt="">
+			</div>
+			<div class="contain">
+				<div class="ar-row">
+					<div class="col lef">
+						<img src="image/Yy-image/ar_11.png" alt="">
+					</div>
+					<div class="col-mid">
+						<img src="image/Yy-image/ar_10.png" alt="">
+					</div>
+					<div class="col righ">
+						<img src="image/Yy-image/ar_12.png" alt="">
+					</div>
+				</div>
+				<div class="text">
+					<p>茶室主要采用自然的竹子做吊顶以及装饰材料，镂空的设计点缀着绿色材料让整个空间充满</p>
+					<ul class="line">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--茶馆环境结束-->
+		<!--我们产品开始-->
+		<div class="pro">
+			<div class="head">
+				<img src="image/Yy-image/index_18.png" alt="">
+			</div>
+			<div class="container">
+				<div class="ar-row">
+					<div class="col lef">
+						<img src="image/Yy-image/cp_07.png" alt="">
+						<p>一臾茶叶</p>
+					</div>
+					<div class="col-mid">
+						<img src="image/Yy-image/cp_03.png" alt="">
+						<p>懒人茶包</p>
+					</div>
+					<div class="col righ">
+						<img src="image/Yy-image/cp_09.png" alt="">
+						<p>禅意茶组</p>
+					</div>
+				</div>
+			</div>
+			<div class="more">
+				<img src="image/Yy-image/index_29.png" alt="">
+			</div>
+		</div>
+		<div class="add">
+			<img src="image/Yy-image/home_27.png" alt="">
+		</div>
+		<!--我们产品结束-->
+		<!--我们新闻开始-->
+		<div class="news">
+			<div class="head">
+				<img src="image/Yy-image/index_18.png" alt="">
+			</div>
+			<div class="container context">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 n-list">
+						<h6>
+							<img src="image/Yy-image/home_34.png" alt="">
+							<p>悄无声息占领世界的时尚茶馆 &nbsp;&nbsp; 2016-02-05</p>
+						</h6>
+						<div class="content">
+							<div class="left">
+								<img src="image/Yy-image/cp_14.png" alt="">
+							</div>
+							<div class="righ">
+								<p>
+									对白茶舍坐落在杭州满觉陇48号的巷子里，阳光
+									从巨大的落地窗洒进来留下斑驳的剪影。
+								</p>
+								<p>
+									On the tea house is located in Hangzhou manjuelong
+									No. 48 alley, sunshine...
+								</p>
+								<div class="more">+</div>
+								<span>MORE</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 n-list">
+						<h6>
+							<img src="image/Yy-image/home_34.png" alt="">
+							<p>悄无声息占领世界的时尚茶馆 &nbsp;&nbsp; 2016-02-05</p>
+						</h6>
+						<div class="content">
+							<div class="left">
+								<img src="image/Yy-image/cp_14.png" alt="">
+							</div>
+							<div class="righ">
+								<p>
+									对白茶舍坐落在杭州满觉陇48号的巷子里，阳光
+									从巨大的落地窗洒进来留下斑驳的剪影。
+								</p>
+								<p>
+									On the tea house is located in Hangzhou manjuelong
+									No. 48 alley, sunshine...
+								</p>
+								<div class="more">+</div>
+								<span>MORE</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 n-list">
+						<h6>
+							<img src="image/Yy-image/home_34.png" alt="">
+							<p>悄无声息占领世界的时尚茶馆 &nbsp;&nbsp; 2016-02-05</p>
+						</h6>
+						<div class="content">
+							<div class="left">
+								<img src="image/Yy-image/cp_14.png" alt="">
+							</div>
+							<div class="righ">
+								<p>
+									对白茶舍坐落在杭州满觉陇48号的巷子里，阳光
+									从巨大的落地窗洒进来留下斑驳的剪影。
+								</p>
+								<p>
+									On the tea house is located in Hangzhou manjuelong
+									No. 48 alley, sunshine...
+								</p>
+								<div class="more">+</div>
+								<span>MORE</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 n-list">
+						<h6>
+							<img src="image/Yy-image/home_34.png" alt="">
+							<p>悄无声息占领世界的时尚茶馆 &nbsp;&nbsp; 2016-02-05</p>
+						</h6>
+						<div class="content">
+							<div class="left">
+								<img src="image/Yy-image/cp_14.png" alt="">
+							</div>
+							<div class="righ">
+								<p>
+									对白茶舍坐落在杭州满觉陇48号的巷子里，阳光
+									从巨大的落地窗洒进来留下斑驳的剪影。
+								</p>
+								<p>
+									On the tea house is located in Hangzhou manjuelong
+									No. 48 alley, sunshine...
+								</p>
+								<div class="more">+</div>
+								<span>MORE</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="more">
+				<img src="image/Yy-image/index_29.png" alt="">
+			</div>
+		</div>
+		<!--我们新闻结束-->
+		<!--百科茶叶开始-->
+		<div class="tea">
+			<div class="head">
+				<img src="image/Yy-image/index_22.png" alt="">
+			</div>
+			<div class="tea-content">
+				<ul class="tea-list">
+					<li>茶艺茶道</li>
+					<li class="active">茶与养生</li>
+					<li>品茶鉴茶</li>
+				</ul>
+			</div>
+			<div class="tea-contain container">
+				<div class="row">
+					<div class="col-xs-4 tea-col">
+						<div class="title">
+							<img src="image/Yy-image/home_34.png" alt="">
+							<h6>节气茶席&nbsp; | &nbsp;杏花惊蛰寒，日上桃始华</h6>
+							<p>
+								不觉已是惊蛰时节，晨起慵懒，看到窗外一片好春光，
+								路上偶遇桃花林，一片...
+							</p>
+						</div>
+						<p></p>
+						<div class="tea-img">
+							<img src="image/Yy-image/tea_18.png" alt="">
+						</div>
+					</div>
+					<div class="col-xs-4 tea-col active">
+						<div class="title">
+							<img src="image/Yy-image/home_34.png" alt="">
+							<h6>节气茶席&nbsp; | &nbsp;杏花惊蛰寒，日上桃始华</h6>
+							<p>
+								不觉已是惊蛰时节，晨起慵懒，看到窗外一片好春光，
+								路上偶遇桃花林，一片...
+							</p>
+						</div>
+						<p></p>
+						<div class="tea-img">
+							<img src="image/Yy-image/tea_20.png" alt="">
+						</div>
+					</div>
+					<div class="col-xs-4 tea-col">
+						<div class="title">
+							<img src="image/Yy-image/home_34.png" alt="">
+							<h6>节气茶席&nbsp; | &nbsp;杏花惊蛰寒，日上桃始华</h6>
+							<p>
+								不觉已是惊蛰时节，晨起慵懒，看到窗外一片好春光，
+								路上偶遇桃花林，一片...
+							</p>
+						</div>
+						<p></p>
+						<div class="tea-img">
+							<img src="image/Yy-image/tea_22.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="line">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="more">
+				<img src="image/Yy-image/index_29.png" alt="">
+			</div>
+		</div>
+		<!--百科茶叶结束-->
+		<!--联系我们开始-->
+		<div class="contact">
+			<div class="head">
+				<img src="image/Yy-image/index_33.png" alt="">
+			</div>
+			<div class="text">
+				<p>一臾茶馆位于浙江省杭州市西湖区南山路825号，茶馆联系电话：0571-75684322</p>
+				<span>邮箱：1234567@163.com</span>
+			</div>
+			<div class="area container">
+				<div class="row">
+					<div class="con-lef col-xs-4 col-sm-4">
+						<input type="" name="" id="" value="姓名" />
+						<input type="" name="" id="" value="邮箱" />
+						<input type="" name="" id="" value="标题" />
+					</div>
+					<div class="con-rig col-xs-8 col-sm-8">
+						<textarea name="" rows="" cols=""></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们结束-->
 	</body>
 </html>

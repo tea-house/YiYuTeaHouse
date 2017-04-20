@@ -1,0 +1,139 @@
+@mixin img{
+  float:left;
+  background-image:url("../../image/Yy-image/home_05.png");
+  background-repeat: no-repeat;
+  background-position:center;
+}
+@mixin border{
+  width:100%;
+  border:1px solid #b5b5b5;
+  border-radius:4px;
+}
+.header{
+  height:80px;
+  .logo{
+    height:100%;
+    img{
+      width:80px;
+      margin:0 auto;
+    }
+  }
+  .nav{
+    height:100%;
+    ul{
+      width:100%;
+      height:100%;
+      li{
+        float: left;
+        width:14.2857%;
+        height:100%;
+        text-align: center;
+        cursor:pointer;
+        a{
+          color:#2f2f2f;
+          font-size:14px;
+          line-height:80px;
+          text-decoration:none;
+        }
+        transition:all 0.3s;
+      }
+      li.active{
+          background-color:#4b4c4c;
+          a{
+             color:#fff; 
+          }
+          
+      }
+    }
+  }
+  .search{
+    height:100%;
+    .outborder{
+      margin:21px auto;
+      height:38px;
+      @include border;
+      cursor:pointer;
+      .icon{
+        width:14%;
+        height:100%;
+        @include img;
+      }
+    }
+  }
+}
+.header .nav ul li:hover{
+   background-color:#4b4c4c;
+}
+.header .nav ul li:hover a{
+   color:#fff;
+}
+//小屏导航
+.sm-header{
+  width:100%;
+  height:128px;
+  .logo {
+    height:128px;
+    .logo-img {
+      width:100%;
+      height:100%;
+      background-image:url("../../image/Yy-image/home_01.png");
+      background-size:cover;
+      background-position:center;
+    }
+  }
+  .search{
+    height:100%;
+    .outborder{
+      height:48px;
+      margin:36px auto;
+      @include border;
+      cursor: pointer;
+      .icon{
+        width:14%;
+        height:100%;
+        @include img;
+      }
+    }
+  }
+  .menu{
+    height:128px;
+    .menu-img {
+      width:100%;
+      height:100%;
+      background-image:url("../../image/Yy-image/home_03.png");
+      background-size:cover;
+      background-position:center;
+    }
+  }
+}
+.search .outborder input{
+  float: left;
+  width:86%;
+  height:100%;
+  background-color:rgba(0,0,0,0);
+  border:none;
+  outline:none;
+  text-indent:6px;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+  .header .container{
+    width:100%;
+  }
+}
+@media screen and (min-width:768px){
+  .header{
+    display: block;
+  }
+  .sm-header{
+    display: none;
+  }
+}
+@media screen and (max-width:768px){
+  .header{
+    display: none;
+  }
+  .sm-header{
+    display: block;
+  }
+}
