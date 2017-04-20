@@ -428,9 +428,9 @@ body{
         width:90%;
         margin:0 auto;
         .con-lef{
-            width:33.33333%;
+//          width:33.33333%;
             input{
-                width:96%;
+//              width:96%;
                 height:48px;
                 @include border;
                 background-color: #f0f4f3;
@@ -442,9 +442,9 @@ body{
             }
         }
         .con-rig{
-            width:66.666666%;
+//          width:66.666666%;
             textarea{
-                width:60%;
+//              width:60%;
                 height:184px;
                 @include border;
                 background-color: #f0f4f3;
@@ -453,12 +453,6 @@ body{
             }
         }
     }
-}
-.contact .area .row .con-lef input{
-    width:96%;
-}
-.contact .area .row .con-rig textarea{
-    width:96%;
 }
 @media screen and (min-width:992px) and (max-width:1200px){
   .about .container .row .about-list .about-bg {
@@ -511,6 +505,9 @@ body{
 @media screen and (max-width:768px){
   .banner{
     height:420px;
+  }
+  .about .aboutlist .about-bg{
+      width:80%;
   }
   .about .container .row .about-list{
     margin-top:20px;
