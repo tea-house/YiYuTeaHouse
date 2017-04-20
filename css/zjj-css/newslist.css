@@ -307,9 +307,6 @@ div.row.context div.right .right-list .h-line:nth-child(1) {
 }
 
 @media screen and (max-width: 768px) {
-  .pagination {
-    overflow: hidden;
-  }
   .rightxp-list {
     width: 95%;
     height: auto;
