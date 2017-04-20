@@ -310,32 +310,27 @@ div.row.context div.right .right-list .h-line:nth-child(1) {
   .rightxp-list {
     width: 95%;
     height: auto;
-    margin-top: 570px;
-    margin-bottom: 200px;
   }
   .rightxp-list .h-line {
     width: 95%;
     height: 1px;
     background: #DFE1DE;
-    margin: 0 auto;
-    margin-top: 190px;
-    margin-bottom: 40px;
+    margin: 20px auto;
   }
-  .rightxp-list div.title {
+  .rightxp-list .li {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 5%;
-  }
-  .rightxp-list div.title span:nth-child(1) {
-    display: block;
-    width: 20%;
     height: auto;
-    background: url("../../image/zjj-image/xu1.png") no-repeat;
+  }
+  .rightxp-list div.guide {
+    width: 100%;
+    text-align: left;
+    padding: 0 10%;
   }
   .rightxp-list div.tuwen {
     width: 90%;
     height: auto;
     margin: 15px auto;
+    overflow: hidden;
   }
   .rightxp-list div.tuwen .tu {
     width: 40%;
@@ -352,6 +347,8 @@ div.row.context div.right .right-list .h-line:nth-child(1) {
     width: 100%;
     margin-top: 2%;
     overflow: hidden;
+    font-size: 12px;
+    text-align: left;
   }
 }
 
