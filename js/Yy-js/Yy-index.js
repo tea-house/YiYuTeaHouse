@@ -1,5 +1,17 @@
 'use strict'
 $(function(){
+	let lis=$('.sm-header .container .row .menu');
+	$(window).resize(function(){
+		let width=$(window).width();
+		if(width<=750){
+			lis.off();
+			lis.click(function(){
+				$('body,html').toggleClass('sm-hidden');
+				$('.sm-header .pull').slideToggle(500);
+			})
+		}
+	})
+	$(window).triggerHandler('resize');
 	//轮播图
 	let box=$('.banner');
 	let img=$('.banner > .box > li');
@@ -63,4 +75,5 @@ $(function(){
 			}
 		})
 	}
-})	
+	
+})

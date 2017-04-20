@@ -1,8 +1,10 @@
 @charset "UTF-8";
 body {
   background-color: #f0f4f3;
-  height: 6000px;
   overflow: auto; }
+
+a:hover {
+  text-decoration: none; }
 
 .about {
   width: 100%; }
@@ -262,8 +264,8 @@ body {
         height: 2px;
         border-radius: 2px;
         background-color: #bfbfbf; }
-  .tea .tea .tea-contain .t-row {
-    width: 80%;
+  .tea .tea-contain .t-row {
+    width: 90%;
     margin: 0 auto; }
   .tea .tea-list {
     width: 420px;
@@ -287,7 +289,8 @@ body {
       margin: 0 auto;
       z-index: 10; }
       .tea .tea-contain .tea-col .con {
-        width: 80%; }
+        width: 90%;
+        margin-left: 15%; }
         .tea .tea-contain .tea-col .con .title h6 {
           display: inline-block;
           font-size: 14px;
@@ -345,6 +348,76 @@ body {
       background-color: #f0f4f3;
       margin-top: 20px;
       outline: none; }
+
+footer {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  background-color: #222; }
+  @media (min-width: 768px) {
+    footer .sxy-footlist {
+      padding-top: 70px; }
+    footer .sxy-infor > .sxy-ma {
+      width: 95px;
+      height: 95px;
+      padding-top: 75px; }
+    footer .sxy-row2 {
+      padding: 50px 0; } }
+  @media (max-width: 768px) {
+    footer .sxy-footlist > li {
+      display: none; }
+    footer .sxy-footlist > .sxy-line {
+      display: none; }
+    footer .sxy-row2 > div {
+      font-size: 12px; }
+    footer .sxy-footlist p > a {
+      font-size: 20px; } }
+
+.sxy-foot {
+  background-color: #222; }
+  .sxy-foot .sxy-infor {
+    display: flex;
+    justify-content: space-between; }
+  .sxy-foot a {
+    color: #fff; }
+
+.sxy-footlist {
+  padding-top: 30px;
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: space-between; }
+  .sxy-footlist .sxy-line {
+    width: 1px;
+    height: 95px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin-top: 5px; }
+  .sxy-footlist li > a {
+    font-size: 18px;
+    width: 18px;
+    display: inline-block; }
+
+.sxy-footlist p > a {
+  font-size: 24px;
+  width: 24px;
+  margin-top: -3px;
+  display: inline-block; }
+
+.sxy-infor > .sxy-ma {
+  width: 95px;
+  height: 95px;
+  padding-top: 36px; }
+
+.sxy-infor > .sxy-ma > img {
+  width: 95px; }
+
+.sxy-row2 {
+  padding: 30px 0;
+  text-align: center; }
+  .sxy-row2 div {
+    color: #fff;
+    font-size: 18px; }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .about .container .row .about-list .about-bg {
@@ -502,4 +575,7 @@ body {
             width: 220px; }
   .tea .line {
     width: 80%;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .tea .tea-contain .tea-col .con {
+    width: 100%;
+    margin: 0 auto; } }
