@@ -20,7 +20,6 @@
 	<body>
 		<!--头部+banner-->
 		<!--导航开始-->
-		<!--导航开始-->
 		<div class="header">
 			<div class="container">
 				<div class="row">
@@ -29,13 +28,13 @@
 					</div>
 					<div class="nav col-sm-7 col-md-8">
 						<ul>
-							<li><a href="Yy-index.html">首页</a></li>
+							<li class="active"><a href="Yy-index.html">首页</a></li>
 							<li><a href="cr-aboutus.html">关于我们</a></li>
 							<li><a href="javascript:;">茶馆环境</a></li>
 							<li><a href="javascript:;">我们产品</a></li>
 							<li><a href="zjj-newslist.html">新闻中心</a></li>
 							<li><a href="sxy-teabaike.html">茶叶百科</a></li>
-							<li class="active"><a href="cr-message.html">联系我们</a></li>
+							<li><a href="cr-message.html">联系我们</a></li>
 						</ul>
 					</div>
 					<div class="search col-sm-3 col-md-3">
@@ -51,7 +50,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="logo col-xs-2">
-						<div class="logo-img"></div>
+						<div class="logo-img">
+							<a href="Yy-index.html" class='indexa'></a>
+						</div>
 					</div>
 					<div class="search col-xs-8">
 						<div class="outborder">
@@ -64,7 +65,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="pull">
+		</div>
+		<div class="pull">
 				<ul class="list">
 					<li>
 						<a href="cr-aboutus.html">
@@ -116,26 +118,24 @@
 					</li>
 				</ul>
 			</div>
-		</div>
-		<!--导航结束-->
 		<!--导航结束-->
 		<!--banner开始-->
 		<div class="banner">
 			<ul class="box">
 				<li class="on">
-					<a href="" class="lis1"></a>
+					<a href="javascripit:;" class="lis1"></a>
 				</li>
 				<li>
-					<a href="" class="lis2"></a>
+					<a href="javascripit:;" class="lis2"></a>
 				</li>
 				<li>
-					<a href="" class="lis3"></a>
+					<a href="javascripit:;" class="lis3"></a>
 				</li>
 				<li>
-					<a href="" class="lis4"></a>
+					<a href="javascripit:;" class="lis4"></a>
 				</li>
 				<li>
-					<a href="" class="lis5"></a>
+					<a href="javascripit:;" class="lis5"></a>
 				</li>
 			</ul>
 			<ul class="circle">
@@ -331,7 +331,7 @@
 			lis.off();
 			lis.click(function(){
 				$('body,html').toggleClass('sm-hidden');
-				$('.sm-header .pull').slideToggle(500);
+				$('.pull').slideToggle(500);
 			})
 		}
 	})
