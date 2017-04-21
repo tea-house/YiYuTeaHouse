@@ -358,6 +358,10 @@
 			$('.sxy-more').click(function(){
 				$('.rowlist1').toggleClass('sxy-active');
 			})
+			var team=$('div.team');
+			team.click(function(){
+				$(this).addClass('active').siblings('div').removeClass('active');
+			})
 		</script>
 	</body>
 </html>
