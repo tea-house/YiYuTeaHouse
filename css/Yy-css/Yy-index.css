@@ -197,7 +197,7 @@ a:hover {
           .news .context .n-list .content .righ p {
             font-size: 12px;
             color: #444; }
-          .news .context .n-list .content .righ .more {
+          .news .context .n-list .content .righ .mor {
             float: left;
             width: 18px;
             height: 18px;
@@ -515,7 +515,7 @@ footer {
     .news .context .n-list .content .righ p {
       margin-top: 10px;
       width: 100%; }
-    .news .context .n-list .content .righ .more {
+    .news .context .n-list .content .righ .mor {
       margin-top: 10px; }
     .news .context .n-list .content .righ span {
       line-height: 40px; }
@@ -525,8 +525,6 @@ footer {
     height: 236px; }
   .tea .tea-content {
     display: none; }
-  .tea .tea-contain .t-row {
-    position: relative; }
   .tea .tea-contain .tea-col {
     float: none;
     margin: 0 auto;
@@ -549,22 +547,39 @@ footer {
     display: none;
     right: -180px; }
   .tea-contain {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px; }
     .tea-contain .tea-col {
-      float: none;
-      margin: 0 auto;
-      width: 100%; }
-      .tea-contain .tea-col .con {
+      width: 100%;
+      float: none; }
+      .tea-contain .tea-col > .con .tea-img {
         width: 100%; }
-        .tea-contain .tea-col .con .tea-img {
+        .tea-contain .tea-col > .con .tea-img img {
           width: 100%; }
-          .tea-contain .tea-col .con .tea-img img {
-            width: 100%; }
   .tea .line {
     width: 80%;
     margin-top: 10px; }
   .tea .tea-contain .tea-col .con {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box; }
+  .tea .tea-contain .tea-col .con .tea-img img {
+    width: 100%; }
+  .tea .more > a > img {
+    width: 200px; }
+  .tea .tea-contain .t-row .t-act {
+    background-image: url(../../image/Yy-image/bg.png);
     width: 100%;
-    margin: 0 auto; } }
+    height: 260px;
+    z-index: 30;
+    background-position: 0 -12px;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .news .more > a > img {
+    width: 200px; }
+  .pro .more > img {
+    width: 200px; }
+  .add {
+    margin-top: 20px; } }

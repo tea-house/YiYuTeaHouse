@@ -267,7 +267,7 @@ a:hover{
             font-size:12px;
             color:#444;
           }
-          .more{
+          .mor{
             float:left;
             width:18px;
             height:18px;
@@ -678,7 +678,7 @@ footer{
         margin-top:10px;
         width:100%;
       }
-      .more{
+      .mor{
         margin-top:10px;
       }
       span{
@@ -694,9 +694,9 @@ footer{
   .tea .tea-content{
       display: none;
   }
-  .tea .tea-contain .t-row{
-      position: relative;
-  }
+//.tea .tea-contain .t-row{
+//    position: relative;
+//}
   .tea .tea-contain .tea-col{
       float:none;
       margin:0 auto;
@@ -727,15 +727,13 @@ footer{
       right:-180px;
   }
   .tea-contain{
-      width:80%;
+      width:100%;
       margin:0 auto;
       margin-top:40px;
     .tea-col{
-        float:none;
-        margin:0 auto;
         width:100%;
-      .con{
-          width:100%;
+        float:none;
+      >.con{
           .tea-img{
               width:100%;
               img{
@@ -750,8 +748,34 @@ footer{
       margin-top:10px;
   }
   .tea .tea-contain .tea-col .con {
-      width:100%;
+      width:90%;
       margin:0 auto;
+      padding:0 16px;
+      box-sizing: border-box;
+  }
+  .tea .tea-contain .tea-col .con .tea-img img{
+      width:100%;
+  }
+  .tea .more > a > img{
+      width:200px;         
+  }
+  .tea .tea-contain .t-row .t-act{
+        background-image:url(../../image/Yy-image/bg.png);
+        width:100%;
+        height:260px;
+        z-index:30;
+        background-position:0 -12px;
+        background-size:100%;
+        background-repeat:no-repeat;
+   }
+  .news .more > a > img{
+      width:200px;       
+  }
+  .pro .more > img{
+      width:200px;       
+  }
+  .add{
+      margin-top:20px;
   }
 }
 
