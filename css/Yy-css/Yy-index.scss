@@ -4,6 +4,7 @@ body{
   overflow: auto;
 }
 a:hover{
+    color:#333;
     text-decoration:none;
 }
 @mixin border{
@@ -703,12 +704,15 @@ footer{
       margin-top:20px;
   }
   .tea .tea-contain .tea-col .con .title{
+      padding-top:8px;
+      box-sizing: border-box;
       width:100%;
   }
   .tea .tea-contain .tea-col .con .title img{
       text-align: center;
   }
   .tea .tea-contain .tea-col .con .title h6{
+      margin-top:8px;
       margin-left:4px;
   }
   .tea .tea-contain .tea-col .con .title p{
