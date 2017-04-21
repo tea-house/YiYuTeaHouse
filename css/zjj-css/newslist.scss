@@ -558,7 +558,7 @@ div.row.context{
   div.right{
     height:auto;
     text-align:center;
-    margin-bottom:90px;
+    //margin-bottom:10px;
     > img:nth-of-type(1){
       width:92%;
     }
@@ -582,7 +582,6 @@ div.row.context{
       font-size:30px;
       padding-top:10px;
       box-sizing:border-box;
-      margin-bottom:0px;
       color:#565656;
       margin:0 auto;
     }
@@ -854,6 +853,7 @@ footer{
   width: 100%;
   height: auto;
   background-color: #222;
+  margin-top: 0!important;
   @media (min-width: 768px) {
     .sxy-footlist{
       padding-top: 70px;

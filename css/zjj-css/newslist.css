@@ -473,7 +473,6 @@ div.row.context div.leftxs div.intro div.font.active p {
 div.row.context div.right {
   height: auto;
   text-align: center;
-  margin-bottom: 90px;
 }
 
 div.row.context div.right > img:nth-of-type(1) {
@@ -503,7 +502,6 @@ div.row.context div.right p:nth-of-type(1) {
   font-size: 30px;
   padding-top: 10px;
   box-sizing: border-box;
-  margin-bottom: 0px;
   color: #565656;
   margin: 0 auto;
 }
@@ -777,6 +775,7 @@ footer {
   width: 100%;
   height: auto;
   background-color: #222;
+  margin-top: 0 !important;
 }
 
 @media (min-width: 768px) {

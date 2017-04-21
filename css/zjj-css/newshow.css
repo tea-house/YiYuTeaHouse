@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   overflow: auto;
   background: #F0F4f3;
@@ -15,6 +16,7 @@ div.head {
 
 div.row.content {
   margin-top: 98px;
+  font-family: "苹方";
 }
 
 div.row.content div.left {
@@ -75,6 +77,7 @@ div.row.content div.left div.team.active {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   div.row.content div.left div.team {
     height: 80px;
+    font-family: "苹方";
   }
   div.row.content div.left div.team > p:first-child {
     text-align: center;
@@ -127,7 +130,7 @@ div.row.content div.leftxs div.intro div.font p {
   width: 100%;
   text-align: center;
   color: #9c9c9c;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -145,8 +148,6 @@ div.row.content div.leftxs div.intro div.font:first-child {
 
 div.row.content div.leftxs div.intro div.font.active p {
   color: #4c4c4c;
-  font-size: 12px;
-  font-weight: 200;
 }
 
 div.row.content div.right {
@@ -360,7 +361,7 @@ div.row.content div.right div.fourp2 div.bpright img {
 div.row.content div.right p:nth-of-type(6) ~ p {
   width: 95%;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   color: #231815;
   margin: 0 auto;
   padding-top: 20px;
@@ -397,6 +398,7 @@ footer {
   width: 100%;
   height: auto;
   background-color: #222;
+  margin-top: 0 !important;
 }
 
 @media (min-width: 768px) {

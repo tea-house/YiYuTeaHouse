@@ -14,6 +14,7 @@ div.head{
 
 div.row.content{
   margin-top: 98px;
+  font-family: "苹方";
   //左边侧栏
   div.left{
     padding-left: 70px;
@@ -66,6 +67,7 @@ div.row.content{
     @media screen and (min-width:768px) and (max-width:992px){
       div.team{
         height:80px;
+        font-family: "苹方";
       }
       div.team > p:first-child{
         text-align:center;
@@ -117,7 +119,7 @@ div.row.content{
           width:100%;
           text-align:center;
           color:#9c9c9c;
-          font-size:12px;
+          font-size:14px;
           margin-bottom:0;
         }
         p:nth-child(1){
@@ -263,11 +265,8 @@ div.row.content{
         width:45%;
         height:auto;
         padding-top:20px;
-        //              padding-bottom:40px;
         box-sizing:border-box;
         overflow:hidden;
-        //              margin-left:15px;
-        //              padding-left:15px;
         img{
           width:94%;
         }
@@ -320,11 +319,8 @@ div.row.content{
         height:auto;
         margin-right: 2%;
         padding-top:20px;
-        //              padding-bottom:40px;
         box-sizing:border-box;
         overflow:hidden;
-        //              margin-left:15px;
-        //              padding-left:15px;
         img{
           width:100%;
         }
@@ -334,11 +330,8 @@ div.row.content{
         width:49%;
         height:auto;
         padding-top:20px;
-        //              padding-bottom:40px;
         box-sizing:border-box;
         overflow:hidden;
-        //              margin-left:15px;
-        //              padding-left:15px;
         img{
           width:100%;
         }
@@ -349,7 +342,7 @@ div.row.content{
     p:nth-of-type(6)~p{
       width:95%;
       text-align:left;
-      font-size:12px;
+      font-size:14px;
       color:#231815;
       margin:0 auto;
       padding-top:20px;
@@ -388,6 +381,7 @@ footer{
   width: 100%;
   height: auto;
   background-color: #222;
+  margin-top: 0!important;
   @media (min-width: 768px) {
     .sxy-footlist{
       padding-top: 70px;
