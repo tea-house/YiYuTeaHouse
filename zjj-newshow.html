@@ -253,12 +253,7 @@
                     <a href="javascript:;">【下一篇】&nbsp;&nbsp;偷得浮生半日闲</a>
                 </div>
             </div>
-            <!--<div class="row foot">-->
-                <!--&lt;!&ndash;底部1&ndash;&gt;-->
-                <!--<div class="line hidden-xs col-sm-12">-->
-                    <!--<img src="image/cr-image/lline.png" alt="" />-->
-                <!--</div>-->
-            <!--</div>-->
+
         </div>
     </div>
     <!--底部-->
@@ -304,3 +299,10 @@
     </footer>
 </body>
 </html>
+<script>
+    var team=$('div.team');
+    team.click(function(){
+        $(this).addClass('active').siblings('div').removeClass('active');
+    })
+
+</script>
